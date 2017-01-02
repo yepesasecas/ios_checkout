@@ -48,11 +48,37 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="UcB-cj-e9Q">
+                        <barButtonItem key="rightBarButtonItem" title="next" id="fB1-Uo-nlO">
+                            <connections>
+                                <segue destination="rj9-Ct-dfI" kind="show" id="WZt-D2-maD"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bJy-rp-2XY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="626" y="99"/>
+        </scene>
+        <!--ZZZ-->
+        <scene sceneID="ftL-ze-1AU">
+            <objects>
+                <viewController id="rj9-Ct-dfI" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bj3-Kx-2Ky"/>
+                        <viewControllerLayoutGuide type="bottom" id="gk8-Fn-YQh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FaC-lH-lyG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="ZZZ" id="OgG-BP-izt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3aR-rM-irQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1450" y="99"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="kwg-Xw-KJq">
