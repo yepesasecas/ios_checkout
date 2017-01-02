@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UserVC.h
 //  ios_checkout
 //
 //  Created by Andres Yepes on 1/2/17.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "XLFormViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface UserVC : XLFormViewController
 
 @end
-
