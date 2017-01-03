@@ -10,7 +10,20 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>004A5EEE8E67E01C6B5F0F1314A69897</key>
+		<key>01F0421ADA63DD112EBFA986BD82300A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>SHSPhoneComponent.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>02E2DDCF5F34CE74F75A823E542E1D26</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -19,20 +32,13 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>XLFormBaseCell.h</string>
+			<string>XLFormTextFieldCell.h</string>
 			<key>path</key>
-			<string>XLForm/XL/Cell/XLFormBaseCell.h</string>
+			<string>XLForm/XL/Cell/XLFormTextFieldCell.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>00C72C2D2ACA3CAD2ECBE9D30A3682CD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>11A443B6E02659DC5C2CB62F306A2770</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>00CAE827C5C6BFBDD4E425730D97CABA</key>
+		<key>033679E8C49BE5D0150086BE6DB4A73B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -41,20 +47,13 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>XLFormSegmentedCell.m</string>
+			<string>XLFormValidator.m</string>
 			<key>path</key>
-			<string>XLForm/XL/Cell/XLFormSegmentedCell.m</string>
+			<string>XLForm/XL/Validation/XLFormValidator.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>041612861C5F97A8970864B12C990301</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3F4292F2DB50EEE28B258F07D38EE77F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>07B4C9AD1F0F1A0FD7A428295F90D147</key>
+		<key>0724CA1EAE95472E08D272B68B5B93E4</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -63,16 +62,31 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>NSObject+XLFormAdditions.h</string>
+			<string>XLFormInlineSelectorCell.h</string>
 			<key>path</key>
-			<string>XLForm/XL/Helpers/NSObject+XLFormAdditions.h</string>
+			<string>XLForm/XL/Cell/XLFormInlineSelectorCell.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>088553C8ECF3FD1DED391ACADDB3EED8</key>
+		<key>08FEC782C59DC1BD26853060CE99B357</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSString+XLFormAdditions.m</string>
+			<key>path</key>
+			<string>XLForm/XL/Helpers/NSString+XLFormAdditions.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>09AA6DE7DDD90F133A9EB850ECCD9FCB</key>
 		<dict>
 			<key>fileRef</key>
-			<string>CF8BBD67A2BD2D1997E1DA211B05220C</string>
+			<string>B762CFA93480B1C9AFE1F64F4C3E8771</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -98,45 +112,72 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0ABA2A307924ED8F9D544C925AC92AAB</key>
+		<key>0A86B9DF82334498FEEE73613E2B3C56</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E08BB83B76CA6C754366CC70A7969446</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/XLForm/XLForm-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
+			<key>fileRef</key>
+			<string>CEA52C21BCBECDF9730A11871D5FD460</string>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>0B22AB45D5E6AF139C823D3270463899</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BEE22F608B7EEAAF54311E3ADF3ABB9B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0C352181515A37646C4B48502993F007</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>01F0421ADA63DD112EBFA986BD82300A</string>
+				<string>C8B88F52AFCA7C78F7E677051DBD7AE4</string>
+				<string>5A10F09C8954F01533148D7881FD60E5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Debug</string>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/SHSPhoneComponent</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0C555D24DA4342CCB0EBEFDF75C45275</key>
+		<dict>
+			<key>fileRef</key>
+			<string>813BEDD1A1EC201E2631A2B386C830D5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>0CFB4CEB67613A78C5E578D82D022AB0</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libXLForm.a</string>
+			<key>path</key>
+			<string>libXLForm.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>0F2331BAF78D4EDDCD400CF6388C7978</key>
 		<dict>
@@ -151,34 +192,19 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>0F790EEEBBB53F6D12E693015C7D3DC0</key>
+		<key>114F444DBB4043A23FC331F97A25F699</key>
 		<dict>
 			<key>fileRef</key>
-			<string>0F2331BAF78D4EDDCD400CF6388C7978</string>
+			<string>917305B77BC35B48CBFFEAF140F790D9</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>11811A516203D887E883E86E3DA17069</key>
-		<dict>
-			<key>fileRef</key>
-			<string>14B0AE8FEBFDB50ED51028E947A1EC52</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>11A443B6E02659DC5C2CB62F306A2770</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>XLFormButtonCell.m</string>
-			<key>path</key>
-			<string>XLForm/XL/Cell/XLFormButtonCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>122DA2E5084A4393C29BE363C764795C</key>
 		<dict>
@@ -193,7 +219,35 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>12F65648A6F08F066D5C6631571DA42C</key>
+		<key>127F91ACF92AE7A4C26CDFC0EA11FEF1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DAAA385564ADF55B013672870BD3838F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>148A505D972F5EF6C83F62C31473BADD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8FFCE2E37258A45111B2803C380CD942</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>16B142721588F473BC25F54B344C50A4</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -202,46 +256,16 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>XLFormOptionsViewController.h</string>
+			<string>XLFormSelectorCell.h</string>
 			<key>path</key>
-			<string>XLForm/XL/Controllers/XLFormOptionsViewController.h</string>
+			<string>XLForm/XL/Cell/XLFormSelectorCell.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>135287838DDB21CC42F3DBB24614040C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>XLFormDatePickerCell.m</string>
-			<key>path</key>
-			<string>XLForm/XL/Cell/XLFormDatePickerCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>14B0AE8FEBFDB50ED51028E947A1EC52</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSPredicate+XLFormAdditions.m</string>
-			<key>path</key>
-			<string>XLForm/XL/Helpers/NSPredicate+XLFormAdditions.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>15E3E36BFAD16DD9E9232B2287A3B4BD</key>
+		<key>198BBDADFB323668B932C41897C2F037</key>
 		<dict>
 			<key>fileRef</key>
-			<string>906B717D4126576632381019534B56C3</string>
+			<string>51191D685AA9CBEEA26713FB5552C1F5</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -251,142 +275,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>1783E29F834DD397D867BE85340E3BE6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8DD6D999D6DCE497676D29107DCB7828</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>1A434D72E217B64A61FE9EA82E830539</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AAAC6CFA40AF6294AE3389C41C1DCD92</string>
-				<string>205C85E22BD3C8FEE45BD92950AAC6AB</string>
-				<string>560465490187377C1C4B5DACB5374033</string>
-				<string>303730BFD89A36A19C14C2F9D67D1CFE</string>
-				<string>07B4C9AD1F0F1A0FD7A428295F90D147</string>
-				<string>DB1BB73FD81F9DD1EC59FDC1BC0B8C51</string>
-				<string>490843359254A7F93B799829B74D6D78</string>
-				<string>14B0AE8FEBFDB50ED51028E947A1EC52</string>
-				<string>AE588EFDF7290D93D70940E1172FE738</string>
-				<string>DAFAED24B5AA0B748C71F1279954E582</string>
-				<string>4E207FBAA4BF45657D05914516E62256</string>
-				<string>4DAF62FD1ED79962EB71CEE7B76004DF</string>
-				<string>93E9C9BC6B09C1D12C5CDA4431441AE6</string>
-				<string>92AB7AA67399F1F8023B02486BEFEF5C</string>
-				<string>004A5EEE8E67E01C6B5F0F1314A69897</string>
-				<string>A26232D58E1858F5FDD0993AEE478B33</string>
-				<string>8DD6D999D6DCE497676D29107DCB7828</string>
-				<string>11A443B6E02659DC5C2CB62F306A2770</string>
-				<string>BA0C220050C826C4F62E199169FF95A1</string>
-				<string>F31AE590602E2A4327286906B08D422F</string>
-				<string>91D24677FC4AA6035EDB80A1311C8176</string>
-				<string>F50084EB4D593C8CA13B6E1DCF4CB9DE</string>
-				<string>CF8BBD67A2BD2D1997E1DA211B05220C</string>
-				<string>135287838DDB21CC42F3DBB24614040C</string>
-				<string>B3F86432E9F2EADCF51B8B3EB9C764AC</string>
-				<string>4C3BBBD17EED9FFF660DE783F78DC462</string>
-				<string>7CA3AB63BD3735A8B4D5E0C33B9899ED</string>
-				<string>BF5F3DCA937FDD661F46C1B0F2F64EE6</string>
-				<string>38F18BE5C3F4F1D7BF7FB11C62463D3C</string>
-				<string>D81FCEAB4DD8C57CED707C94CE59EF99</string>
-				<string>5C19B8B0B475A5CF5DD2E389762C781B</string>
-				<string>2930A621FE66C0891BA65CD2AAF512E0</string>
-				<string>B4B317B0E428DB205A217C1978005CD7</string>
-				<string>3548CE6B671556682ADEC1627F860D9A</string>
-				<string>4DDAF2423D2D019E8ADF0E07F795E3A7</string>
-				<string>D4B8A992FF2A590885D7A03E40D8007A</string>
-				<string>3F4292F2DB50EEE28B258F07D38EE77F</string>
-				<string>12F65648A6F08F066D5C6631571DA42C</string>
-				<string>908A6BD67F23923F0C8FD317601E261B</string>
-				<string>E7AE5B564ECBD8A548A9D514488337A5</string>
-				<string>C662F6D9C645355B5DA34633C68BB3AB</string>
-				<string>52F24E8AEB897E9F0B9269A561B361DD</string>
-				<string>87F41B09AC808161DCEE79A6246223DD</string>
-				<string>46558385684667FDED42141EA2215E5F</string>
-				<string>6D1FBB7E749CAE4D77BEF324AF1C3EFD</string>
-				<string>8F673F682587D35FD2211B73123ADE05</string>
-				<string>CB89B7C3DB8F3E05AC04060557C4C8CD</string>
-				<string>511A12F25FFDA3411C2B5CBF44993C67</string>
-				<string>87F5C2B936CA3CDA73A204D61A90A66E</string>
-				<string>906B717D4126576632381019534B56C3</string>
-				<string>E2845DF4BD6BF3B03B75F4F5CC51F515</string>
-				<string>3692D6BDB1A49EF788B064103A14B0BD</string>
-				<string>CA70F8ACE58E498215D37D5807DD4069</string>
-				<string>320EEE944EEB68B844C8B82744BE5783</string>
-				<string>B2DD202CD6DEA7DCEB0797AA767AA338</string>
-				<string>00CAE827C5C6BFBDD4E425730D97CABA</string>
-				<string>60968A4E6F8AFD89BE3661FBF549E1BB</string>
-				<string>945C8EFA0D38734C4EEB9F5433E4F499</string>
-				<string>5DEE4F1D8A44AF3CB8082415586BC746</string>
-				<string>ABFD65BC8DFFCF6177A94B5F21C183F9</string>
-				<string>CB82A49AAD39649DE320CE1027FFC258</string>
-				<string>CAB2274646F6341E2F845C8C0A8E028D</string>
-				<string>E5CEF80F2E4C382FFB0F7F57D8BA7AEB</string>
-				<string>B04CDD702D8685E9476A0E7BCE0100D7</string>
-				<string>29E87719C0DC89CCC4355DAA1F16B5DF</string>
-				<string>8D553911C173D0C940666DC2125E3BEF</string>
-				<string>E863D18915A9506FAB8EF827ABC06717</string>
-				<string>768625257F5B402C8DB3C6E117982967</string>
-				<string>B257548AB13EDC05123D1C6487AFE9B0</string>
-				<string>959305A6E90B06EF8B312644BEFB2C92</string>
-				<string>F75DC49E621032FDAE029ECF6A40D00D</string>
-				<string>A1582E557AB3DDFC63369C69509A7693</string>
-				<string>1C3B5AE8FC0A3384B4C7BFED4BB9E0C7</string>
-				<string>62083229BEA77A221A43106A133D0125</string>
-				<string>8FFC23553A0DA4ADD5464DACB64037C4</string>
-				<string>4C40368FE5340D7AE828B095C8B0C7A0</string>
-				<string>C23C0F6F3680B7EA6FBD93E2EC183364</string>
-				<string>FD6AB8EA1DE0A6BD62FD8704ED76315E</string>
-				<string>AF48F77601EBDCBD1612127EA951530F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>XLForm</string>
-			<key>path</key>
-			<string>XLForm</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1BB8F905043EFFD8F05193F6F482E395</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F75DC49E621032FDAE029ECF6A40D00D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>1C3B5AE8FC0A3384B4C7BFED4BB9E0C7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>XLFormValidator.h</string>
-			<key>path</key>
-			<string>XLForm/XL/Validation/XLFormValidator.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>1C908C9E23B0214C9B9B55CCB6C90A02</key>
 		<dict>
@@ -459,21 +347,51 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>1D77C60A9346C12EB35BAF7F4F2A6255</key>
+		<key>1DD5561A3D423786C579CF7A1185C90C</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>F3E530C47365A9DEDD5CB7325AD44674</string>
-				<string>A9FE5F2FDBF19050D35206AB1FDFDDA8</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>Products</string>
+			<string>XLFormDateCell.h</string>
+			<key>path</key>
+			<string>XLForm/XL/Cell/XLFormDateCell.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>205C85E22BD3C8FEE45BD92950AAC6AB</key>
+		<key>1E1E4E4F8E86FBAEEE03B68C8B651F78</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>XLFormRowDescriptor.m</string>
+			<key>path</key>
+			<string>XLForm/XL/Descriptors/XLFormRowDescriptor.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1E35EE6A79F8E7679A543A8E976F573B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C78403E2C641AA4250813AD5A8F0CBF7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>1F42B9D143EFA772CDA19B3C6DAEC7E4</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -488,38 +406,86 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2162ECB90315DA15F492BE1D1CD78050</key>
+		<key>1F661E2F1DA2729D81F9716410CC9D47</key>
 		<dict>
 			<key>fileRef</key>
-			<string>3C9854452B704969D40D932335DEE0FF</string>
+			<string>26E9C723511853F6E9B1BA608C47E642</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
-		<key>22863EBA3BECF4877A05532606C57999</key>
+		<key>1FBD3805B13558EA94120B280D5DCE6D</key>
 		<dict>
-			<key>buildConfigurationList</key>
-			<string>8CBB327F60D55A7E375FEBA0DDE0C3CC</string>
-			<key>buildPhases</key>
-			<array>
-				<string>3584374AF6A13A922DC5CA4D0BDF846C</string>
-				<string>35666A16E0A88068BF652FC126FE5A69</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>54F1BF87F92A1C1469EB6D0499F83340</string>
-			</array>
 			<key>isa</key>
-			<string>PBXNativeTarget</string>
+			<string>PBXTargetDependency</string>
 			<key>name</key>
-			<string>Pods-ios_checkout</string>
-			<key>productName</key>
-			<string>Pods-ios_checkout</string>
-			<key>productReference</key>
-			<string>F3E530C47365A9DEDD5CB7325AD44674</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
+			<string>SHSPhoneComponent</string>
+			<key>target</key>
+			<string>6488C2174D855E8D025F68D053BCDC61</string>
+			<key>targetProxy</key>
+			<string>621731F78975F81B01DCF663C952AF3A</string>
+		</dict>
+		<key>20085DE1306A71D168E3B1E19C1DCE4E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>XLFormValidationStatus.m</string>
+			<key>path</key>
+			<string>XLForm/XL/Validation/XLFormValidationStatus.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>203236DA3255754CE68E1CE0BD8240BB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>XLForm-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>225BBB4380BDF6E0CE7A773A19D87555</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>XLFormSelectorCell.m</string>
+			<key>path</key>
+			<string>XLForm/XL/Cell/XLFormSelectorCell.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>225DFCE92E01BC3B68CECA24D67710B9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>XLForm-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>230C51C35E08B88BFAD414B5E7B387AC</key>
 		<dict>
@@ -534,10 +500,10 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2341AA95B7432E3942C7849360D77B0B</key>
+		<key>23F4479E65A915AA59B058838D1052C5</key>
 		<dict>
 			<key>fileRef</key>
-			<string>4C40368FE5340D7AE828B095C8B0C7A0</string>
+			<string>4BE6EAD9EB4C6898318F3F1FF9265483</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -548,10 +514,10 @@
 				</array>
 			</dict>
 		</dict>
-		<key>265787118D9654F137C4DCC2D5BB392A</key>
+		<key>2652ADAB2E3F67DE9A5AA76F9BF535BA</key>
 		<dict>
 			<key>fileRef</key>
-			<string>AAAC6CFA40AF6294AE3389C41C1DCD92</string>
+			<string>6AABFB0F8DD6FF00128B2BE2047740FD</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -562,7 +528,28 @@
 				</array>
 			</dict>
 		</dict>
-		<key>2930A621FE66C0891BA65CD2AAF512E0</key>
+		<key>26ADDDB4D74D38F57F35CCBA7BBC4556</key>
+		<dict>
+			<key>fileRef</key>
+			<string>523C4BED555B432BC7D10C29A19BA876</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>26C78F8F3FDA3A853653F29BD76E69BA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B5489A2684C6C76F5B8364928088B209</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>26E9C723511853F6E9B1BA608C47E642</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -571,47 +558,40 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>XLFormInlineSelectorCell.h</string>
+			<string>XLFormCheckCell.h</string>
 			<key>path</key>
-			<string>XLForm/XL/Cell/XLFormInlineSelectorCell.h</string>
+			<string>XLForm/XL/Cell/XLFormCheckCell.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>29E87719C0DC89CCC4355DAA1F16B5DF</key>
+		<key>2B6692BED20984FB3AACF3039354AACC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C8B88F52AFCA7C78F7E677051DBD7AE4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2B7BF42C835C52DCBAE5036C0A00D3A8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>516A414CCC47E1FE8D0DBF46BD4E12DB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2BC67384C72E9442D40AA641FE4F6099</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>XLFormTextFieldCell.h</string>
+			<string>XLFormRightDetailCell.m</string>
 			<key>path</key>
-			<string>XLForm/XL/Cell/XLFormTextFieldCell.h</string>
+			<string>XLForm/XL/Helpers/Views/XLFormRightDetailCell.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2BD5C061CDAD7FE600A53CFEDF79E25E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>92AB7AA67399F1F8023B02486BEFEF5C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2BF1DC8EA73D21906C90DD3ED0DAB70E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5DEE4F1D8A44AF3CB8082415586BC746</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
 		</dict>
 		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
 		<dict>
@@ -627,7 +607,107 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>303730BFD89A36A19C14C2F9D67D1CFE</key>
+		<key>2D9CE74C277756C450372C4D8C1CDB3C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSObject+XLFormAdditions.h</string>
+			<key>path</key>
+			<string>XLForm/XL/Helpers/NSObject+XLFormAdditions.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2DA9222E741570244BC086C07028CBB5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7BAA7D45396E4C485F605624E8E80062</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2DBD96063E25E5DD1C5F672310F2C8BC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EF7EBC67863B0A26583F3614C5D087DA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2E272310DF66BFA4952AF1BEF236321E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>EFABAAA8E6188ABD7EF9AA43AE030B92</string>
+				<string>80220E807C164255761EAE6A2B47CEA1</string>
+				<string>6F179D325E03B78F00DAAC297F1D83AE</string>
+				<string>6456F78D9F1D9AFD1832920030727FD5</string>
+				<string>593678BDCE45778AF59371CA1FBFFC72</string>
+				<string>686258444DF68A611AD6B96F661B04E9</string>
+				<string>B897ADCE2B828DBF66FB614D33663DF8</string>
+				<string>303AA72B173E3875D52DA09B7907308D</string>
+				<string>4BDB804F846CED92F1AE599B8C617793</string>
+				<string>9CCC78A381E547E17F34EF72FBBEF4B0</string>
+				<string>C0446401A2E3FF3AD17195884569A5B7</string>
+				<string>2DA9222E741570244BC086C07028CBB5</string>
+				<string>8D6EEF3CA94EE7AB957083CE76308383</string>
+				<string>50CEA073950B684B69642BA3BE5C7273</string>
+				<string>A2BDA8522576141163AC1ACB08D75D8A</string>
+				<string>830B73C3988C0E6B7C7DFF4FD0216CEF</string>
+				<string>84E4F151DFD9AF3E2043A55069CEC251</string>
+				<string>4BCAFB5EE543F369A1398B26B5850954</string>
+				<string>56BB70047CE3DD92E2DFC0CECFD5DCB9</string>
+				<string>96877FA727EC0D4E214BFEA6C1138BF4</string>
+				<string>2DBD96063E25E5DD1C5F672310F2C8BC</string>
+				<string>8EC3EBA8BA2C35EFCADC5A1C6CDDD5AD</string>
+				<string>26C78F8F3FDA3A853653F29BD76E69BA</string>
+				<string>C5F4C888D62CED89340EB2F143D03D25</string>
+				<string>FCB8D6D6CE6FB8C121964CFF727D60B5</string>
+				<string>9D670AFE4BB85578F6837AC6589EE301</string>
+				<string>427D738674049C4DC31BC7065812BC0F</string>
+				<string>F60D433CED3FABE35FF4023E4ED8D0F2</string>
+				<string>7F06EEC8B4CF9FB4E861B2CA5B43D7A7</string>
+				<string>33E3FE8C211CFFD9C787D33EF7D57B7C</string>
+				<string>B26D29A05AA749089CC5CA27D998A655</string>
+				<string>38CB6455D332DF20E704F98EC98D564C</string>
+				<string>F1BE7A92B68BCBC3E0896A849680F1A8</string>
+				<string>A4C4B6B5D7AF58061B9FFF86F1468E79</string>
+				<string>7E93BE5332718AD4B5EF8E269203897E</string>
+				<string>54DEF569DEA35F948FD9E9B9CA76F052</string>
+				<string>EED10736B0AA07825D65403F429D06CD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>303AA72B173E3875D52DA09B7907308D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FA6F3BA4053EF710B0C2B685A4CEC0AE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>30D568FAC759C2D29E3E75DD8EFBE3C6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>XLFormSectionDescriptor.h</string>
+			<key>path</key>
+			<string>XLForm/XL/Descriptors/XLFormSectionDescriptor.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>318484F186592A0CFD52787FD92E1F9B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -636,27 +716,129 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>NSExpression+XLFormAdditions.m</string>
+			<string>XLFormDatePickerCell.m</string>
 			<key>path</key>
-			<string>XLForm/XL/Helpers/NSExpression+XLFormAdditions.m</string>
+			<string>XLForm/XL/Cell/XLFormDatePickerCell.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>303ED006C9D63046F0632BD585635F32</key>
+		<key>3386679FEAD0945937669E2C5708633A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>4C3BBBD17EED9FFF660DE783F78DC462</string>
+			<string>D7A49AA92B76E0A411DD3C7D40CED8FE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>338C0C447AB275F88C1B8860B3506209</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CBCFC8D452458458E95B6A39B80C93BE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>33E3FE8C211CFFD9C787D33EF7D57B7C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FA422B05D33CD2C3FC57897EC1CCA69E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>31726E4D0466302C7D5B7780B6D7F2EA</key>
+		<key>36CD860B560BCA1A2B8ABEB481FAB9AB</key>
 		<dict>
 			<key>fileRef</key>
-			<string>00CAE827C5C6BFBDD4E425730D97CABA</string>
+			<string>F87A4BBD2EC7B45B007F955B1983ACDF</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>320EEE944EEB68B844C8B82744BE5783</key>
+		<key>36F53702B5F75B960F1D6D0D8EFAEFE6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>XLFormDescriptor.h</string>
+			<key>path</key>
+			<string>XLForm/XL/Descriptors/XLFormDescriptor.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>37207EB7295506ADF4229A624E8934D9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>XLFormSwitchCell.h</string>
+			<key>path</key>
+			<string>XLForm/XL/Cell/XLFormSwitchCell.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>37E4C6B4097A8337CB4713D7BEF58152</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3C9854452B704969D40D932335DEE0FF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>38CB6455D332DF20E704F98EC98D564C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6138C85BCC7735A5305D3DD42C16A758</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3B35B7F8CAB755712F44C75B70F318DD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>XLFormRightDetailCell.h</string>
+			<key>path</key>
+			<string>XLForm/XL/Helpers/Views/XLFormRightDetailCell.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3BA222EC26E3A933FCCAC772487B48DF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>XLFormStepCounterCell.h</string>
+			<key>path</key>
+			<string>XLForm/XL/Cell/XLFormStepCounterCell.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3C40D61089C47AB1704D1BD98AEA73C6</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -665,16 +847,311 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>XLFormSectionDescriptor.m</string>
+			<string>XLFormViewController.m</string>
 			<key>path</key>
-			<string>XLForm/XL/Descriptors/XLFormSectionDescriptor.m</string>
+			<string>XLForm/XL/Controllers/XLFormViewController.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3290DDBFC0C7F37CF4B5AE944D713685</key>
+		<key>3C9854452B704969D40D932335DEE0FF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>3CD422726C6727545A312EEAFD62F2A3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>XLForm.h</string>
+			<key>path</key>
+			<string>XLForm/XL/XLForm.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3CE938101CFCBBCF4E7A9523115AC317</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4E88602F308603632E7C0636EEA5D58B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>3E81E3B3524227B5D26A08B2A485328A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SHSPhoneNumberFormatter+UserConfig.m</string>
+			<key>path</key>
+			<string>SHSPhoneComponents/SHSPhoneNumberFormatter+UserConfig.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4070DB201A64AB717E765C7BAFEC7D5D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SHSPhoneTextField.h</string>
+			<key>path</key>
+			<string>SHSPhoneComponents/SHSPhoneTextField.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>427D738674049C4DC31BC7065812BC0F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A38D117F7E6A31D0B693DC052113ADB8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>429537E8B03A284BFD29362362B8AD79</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8EBFD6F1D8BA8F61E81565C2D9DB99EF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>432D2D67A552EC385F9D5787D1E9AA37</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIView+XLFormAdditions.m</string>
+			<key>path</key>
+			<string>XLForm/XL/Helpers/UIView+XLFormAdditions.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4384675174F10B7DEB2B2BEC983C7001</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>XLFormButtonCell.m</string>
+			<key>path</key>
+			<string>XLForm/XL/Cell/XLFormButtonCell.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>447925058030B5B315F7AED0463C9F39</key>
+		<dict>
+			<key>fileRef</key>
+			<string>88E6C749C9823930AB0E25DE4DEEF239</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>44AE05AEC19312200498B2C210A141AD</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>85ACE508EA1BB89D1FC1A76A040B41B2</string>
+			<key>remoteInfo</key>
+			<string>XLForm</string>
+		</dict>
+		<key>4624D54CBB8890CB6F28A41B44BEDEE0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A8994AC32E7C2E29066DA95C37951D41</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>46AF857255375A0BD517D05A34E88B37</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0724CA1EAE95472E08D272B68B5B93E4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>475EB08866D44ECD7F65710C150FE77D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-ios_checkout-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>47C02A7EA01923C869DBCB3F38997023</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>XLFormLeftRightSelectorCell.h</string>
+			<key>path</key>
+			<string>XLForm/XL/Cell/XLFormLeftRightSelectorCell.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4936DF971DB5D85178867C6FFDE4599E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>XLFormSliderCell.h</string>
+			<key>path</key>
+			<string>XLForm/XL/Cell/XLFormSliderCell.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4BB404508467D3DD9889189229747E76</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>XLFormViewController.h</string>
+			<key>path</key>
+			<string>XLForm/XL/Controllers/XLFormViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4BCAFB5EE543F369A1398B26B5850954</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FBAF348E68F6042C7C71D4A29132695C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4BDB804F846CED92F1AE599B8C617793</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E87D8A958CBB697D9F4AF44FBB985DE1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4BE6EAD9EB4C6898318F3F1FF9265483</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>XLFormTextView.h</string>
+			<key>path</key>
+			<string>XLForm/XL/Helpers/Views/XLFormTextView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4CB21D9A53B7106FB5352BD7CC7D7BC8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>XLFormValidatorProtocol.h</string>
+			<key>path</key>
+			<string>XLForm/XL/Validation/XLFormValidatorProtocol.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4E88602F308603632E7C0636EEA5D58B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIView+XLFormAdditions.h</string>
+			<key>path</key>
+			<string>XLForm/XL/Helpers/UIView+XLFormAdditions.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4F350DEF974DE98B95161631AFEA3233</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>E08BB83B76CA6C754366CC70A7969446</string>
+			<string>AACD3D19E7415D5E49642A49ED015FAB</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -711,22 +1188,14 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>340A83EAA4A6A6AE762BED8375288876</key>
+		<key>50CEA073950B684B69642BA3BE5C7273</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F1A5061270351430A251E380575A8C1D</string>
-				<string>7B629406A42AADFACBB21145E78D1663</string>
-				<string>0F790EEEBBB53F6D12E693015C7D3DC0</string>
-			</array>
+			<key>fileRef</key>
+			<string>9BD7344D781BAC408D79B965DFB7BC70</string>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>3548CE6B671556682ADEC1627F860D9A</key>
+		<key>51191D685AA9CBEEA26713FB5552C1F5</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -735,39 +1204,13 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>XLFormLeftRightSelectorCell.h</string>
+			<string>XLFormRowNavigationAccessoryView.h</string>
 			<key>path</key>
-			<string>XLForm/XL/Cell/XLFormLeftRightSelectorCell.h</string>
+			<string>XLForm/XL/Helpers/Views/XLFormRowNavigationAccessoryView.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>35666A16E0A88068BF652FC126FE5A69</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2162ECB90315DA15F492BE1D1CD78050</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3584374AF6A13A922DC5CA4D0BDF846C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>979C04504FD2D00FA04623CBAF4710EA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3692D6BDB1A49EF788B064103A14B0BD</key>
+		<key>516A414CCC47E1FE8D0DBF46BD4E12DB</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -776,16 +1219,16 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>XLFormRowNavigationAccessoryView.m</string>
+			<string>SHSPhoneTextField.m</string>
 			<key>path</key>
-			<string>XLForm/XL/Helpers/Views/XLFormRowNavigationAccessoryView.m</string>
+			<string>SHSPhoneComponents/SHSPhoneTextField.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>372EAF06441BBC24FE02883252C1ACBF</key>
+		<key>51767348B538870D2C386AE72B5EA950</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B2DD202CD6DEA7DCEB0797AA767AA338</string>
+			<string>E94631B9BC0DCB51B01057FC745C6539</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -796,7 +1239,7 @@
 				</array>
 			</dict>
 		</dict>
-		<key>38F18BE5C3F4F1D7BF7FB11C62463D3C</key>
+		<key>523C4BED555B432BC7D10C29A19BA876</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -805,47 +1248,83 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>XLFormImageCell.h</string>
+			<string>XLFormRowDescriptorViewController.h</string>
 			<key>path</key>
-			<string>XLForm/XL/Cell/XLFormImageCell.h</string>
+			<string>XLForm/XL/Controllers/XLFormRowDescriptorViewController.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3926FEA2BB0CD10EF5EA1353AF8FCCCB</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>0ABA2A307924ED8F9D544C925AC92AAB</string>
-				<string>3290DDBFC0C7F37CF4B5AE944D713685</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>3C9854452B704969D40D932335DEE0FF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>3D7498C45942CF22A6737C5E1D84A1DD</key>
+		<key>54DEF569DEA35F948FD9E9B9CA76F052</key>
 		<dict>
 			<key>fileRef</key>
-			<string>7358822793A93F51C9D574CC40C8E415</string>
+			<string>033679E8C49BE5D0150086BE6DB4A73B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>3F4292F2DB50EEE28B258F07D38EE77F</key>
+		<key>562ABFD0FBD8152A6ACF67221BF3D120</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A84D2EAA56398B3A87FB5289D123827D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>56BB70047CE3DD92E2DFC0CECFD5DCB9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>925E20F3E554ABCCBB14C84864688B6B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>56DD6C856D20E16D58DB49A957D92CBB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>36F53702B5F75B960F1D6D0D8EFAEFE6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>5718AB7480D0DA67C65F596C6C3400A0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3CD422726C6727545A312EEAFD62F2A3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>571F9D0C482FD6311309BB2F0BC06AAE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AE3C51C2FDABD87DF5079ECA5F7AFB5D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>575E3E506B5316D7EA3E7277BEA3A48B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -854,13 +1333,20 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>XLFormOptionsObject.m</string>
+			<string>XLFormInlineSelectorCell.m</string>
 			<key>path</key>
-			<string>XLForm/XL/Controllers/XLFormOptionsObject.m</string>
+			<string>XLForm/XL/Cell/XLFormInlineSelectorCell.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>46558385684667FDED42141EA2215E5F</key>
+		<key>593678BDCE45778AF59371CA1FBFFC72</key>
+		<dict>
+			<key>fileRef</key>
+			<string>08FEC782C59DC1BD26853060CE99B357</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5A10F09C8954F01533148D7881FD60E5</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -868,87 +1354,52 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>XLFormRightDetailCell.h</string>
 			<key>path</key>
-			<string>XLForm/XL/Helpers/Views/XLFormRightDetailCell.h</string>
+			<string>SHSPhoneComponent-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>475EB08866D44ECD7F65710C150FE77D</key>
+		<key>5AFA1C76A107F3B4F0EDE49EF9844F80</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>baseConfigurationReference</key>
+			<string>01F0421ADA63DD112EBFA986BD82300A</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/SHSPhoneComponent/SHSPhoneComponent-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-ios_checkout-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>490843359254A7F93B799829B74D6D78</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>NSPredicate+XLFormAdditions.h</string>
-			<key>path</key>
-			<string>XLForm/XL/Helpers/NSPredicate+XLFormAdditions.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>Release</string>
 		</dict>
-		<key>4C3BBBD17EED9FFF660DE783F78DC462</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>XLFormDescriptor.m</string>
-			<key>path</key>
-			<string>XLForm/XL/Descriptors/XLFormDescriptor.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4C40368FE5340D7AE828B095C8B0C7A0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>XLFormViewController.h</string>
-			<key>path</key>
-			<string>XLForm/XL/Controllers/XLFormViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DAF62FD1ED79962EB71CEE7B76004DF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIView+XLFormAdditions.m</string>
-			<key>path</key>
-			<string>XLForm/XL/Helpers/UIView+XLFormAdditions.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DDAF2423D2D019E8ADF0E07F795E3A7</key>
+		<key>5B8AA894FE488049A244BD6475D6F1EB</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -963,7 +1414,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4E207FBAA4BF45657D05914516E62256</key>
+		<key>5D5C786F34A75CCD476629DA2B064F92</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -972,176 +1423,9 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>UIView+XLFormAdditions.h</string>
+			<string>XLFormDatePickerCell.h</string>
 			<key>path</key>
-			<string>XLForm/XL/Helpers/UIView+XLFormAdditions.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>511A12F25FFDA3411C2B5CBF44993C67</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>XLFormRowDescriptor.h</string>
-			<key>path</key>
-			<string>XLForm/XL/Descriptors/XLFormRowDescriptor.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>51D7207C7F2AC63FC175AD318B81689D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E7AE5B564ECBD8A548A9D514488337A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>52C1749BD697C83E12A2380DD819971B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>07B4C9AD1F0F1A0FD7A428295F90D147</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>52F24E8AEB897E9F0B9269A561B361DD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>XLFormRegexValidator.h</string>
-			<key>path</key>
-			<string>XLForm/XL/Validation/XLFormRegexValidator.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>54F1BF87F92A1C1469EB6D0499F83340</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>XLForm</string>
-			<key>target</key>
-			<string>57A5D98B6577B2CEC97237D5C16AECB2</string>
-			<key>targetProxy</key>
-			<string>97F387646618CB06B86E87A72EF44DB3</string>
-		</dict>
-		<key>560465490187377C1C4B5DACB5374033</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSExpression+XLFormAdditions.h</string>
-			<key>path</key>
-			<string>XLForm/XL/Helpers/NSExpression+XLFormAdditions.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>57A5D98B6577B2CEC97237D5C16AECB2</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>3926FEA2BB0CD10EF5EA1353AF8FCCCB</string>
-			<key>buildPhases</key>
-			<array>
-				<string>AFC70801B663839959C3C144F92C146B</string>
-				<string>340A83EAA4A6A6AE762BED8375288876</string>
-				<string>F2EACC5A101E78C07E0B354B5C442494</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>XLForm</string>
-			<key>productName</key>
-			<string>XLForm</string>
-			<key>productReference</key>
-			<string>A9FE5F2FDBF19050D35206AB1FDFDDA8</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>58421192CEEC6FB7381CB47676C96F27</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5C19B8B0B475A5CF5DD2E389762C781B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>5AD70656C544700C1A334250B86036C3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>320EEE944EEB68B844C8B82744BE5783</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5C19B8B0B475A5CF5DD2E389762C781B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>XLFormInlineRowDescriptorCell.h</string>
-			<key>path</key>
-			<string>XLForm/XL/Cell/XLFormInlineRowDescriptorCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5D8A13C61923A889550CF22ECE8533D3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>768625257F5B402C8DB3C6E117982967</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5DEE4F1D8A44AF3CB8082415586BC746</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>XLFormSliderCell.h</string>
-			<key>path</key>
-			<string>XLForm/XL/Cell/XLFormSliderCell.h</string>
+			<string>XLForm/XL/Cell/XLFormDatePickerCell.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1158,14 +1442,127 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>5FE1616BCCF3E12A94BB9070103DE250</key>
+		<key>600D3B9DB4FF48112C723E000B479F5A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6AABFB0F8DD6FF00128B2BE2047740FD</string>
+				<string>92FB048549A914072C8875B2280712D3</string>
+				<string>A8994AC32E7C2E29066DA95C37951D41</string>
+				<string>DAAA385564ADF55B013672870BD3838F</string>
+				<string>BEE22F608B7EEAAF54311E3ADF3ABB9B</string>
+				<string>7248D08F4C100907B696DCDBD134E8C1</string>
+				<string>F87A4BBD2EC7B45B007F955B1983ACDF</string>
+				<string>6D9BC2FE9C812C5E4CEBAA3F8EBF4CCE</string>
+				<string>3E81E3B3524227B5D26A08B2A485328A</string>
+				<string>4070DB201A64AB717E765C7BAFEC7D5D</string>
+				<string>516A414CCC47E1FE8D0DBF46BD4E12DB</string>
+				<string>0C352181515A37646C4B48502993F007</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>SHSPhoneComponent</string>
+			<key>path</key>
+			<string>SHSPhoneComponent</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6138C85BCC7735A5305D3DD42C16A758</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>XLFormTextFieldCell.m</string>
+			<key>path</key>
+			<string>XLForm/XL/Cell/XLFormTextFieldCell.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>621731F78975F81B01DCF663C952AF3A</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>6488C2174D855E8D025F68D053BCDC61</string>
+			<key>remoteInfo</key>
+			<string>SHSPhoneComponent</string>
+		</dict>
+		<key>6456F78D9F1D9AFD1832920030727FD5</key>
 		<dict>
 			<key>fileRef</key>
-			<string>959305A6E90B06EF8B312644BEFB2C92</string>
+			<string>E90FF770D97223CDB2F0A74538F1B63F</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>60968A4E6F8AFD89BE3661FBF549E1BB</key>
+		<key>6488C2174D855E8D025F68D053BCDC61</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>B78C1862C08CEB9C721D88A9BBE4A2D6</string>
+			<key>buildPhases</key>
+			<array>
+				<string>8428B7414CE9372D9DE1F1FBFC8B3C3B</string>
+				<string>B9F709BAE883BE93E8BE1C93AF2872F9</string>
+				<string>D268A26368B845FF7CEEB4E56A589ECD</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SHSPhoneComponent</string>
+			<key>productName</key>
+			<string>SHSPhoneComponent</string>
+			<key>productReference</key>
+			<string>A9AD3A87C1C9F433F1E560D089934CAC</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>64B0A55526E6271A9449EF167058534C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>BC53628ECE4D2FDFE5CCFCCB1A9DEF43</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>67D61D208DB051110673F335DE018131</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3BA222EC26E3A933FCCAC772487B48DF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>686258444DF68A611AD6B96F661B04E9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>432D2D67A552EC385F9D5787D1E9AA37</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6AABFB0F8DD6FF00128B2BE2047740FD</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1174,211 +1571,24 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>XLFormSelectorCell.h</string>
+			<string>SHSFlagAccessoryView.h</string>
 			<key>path</key>
-			<string>XLForm/XL/Cell/XLFormSelectorCell.h</string>
+			<string>SHSPhoneComponents/SHSFlagAccessoryView.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>62083229BEA77A221A43106A133D0125</key>
+		<key>6C895CEB1A36CE807F2CBD87005A3AEF</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>PBXTargetDependency</string>
 			<key>name</key>
-			<string>XLFormValidator.m</string>
-			<key>path</key>
-			<string>XLForm/XL/Validation/XLFormValidator.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>XLForm</string>
+			<key>target</key>
+			<string>85ACE508EA1BB89D1FC1A76A040B41B2</string>
+			<key>targetProxy</key>
+			<string>44AE05AEC19312200498B2C210A141AD</string>
 		</dict>
-		<key>623964482854D04A03D44FE4412F6077</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2845DF4BD6BF3B03B75F4F5CC51F515</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>624A2024ECFC3EFB949934E9A67C1695</key>
-		<dict>
-			<key>fileRef</key>
-			<string>46558385684667FDED42141EA2215E5F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>6329145450E7D47A9CF652245C7B715D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6D1FBB7E749CAE4D77BEF324AF1C3EFD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>671FB1C53097D726079A4F9F32DF3D5C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>004A5EEE8E67E01C6B5F0F1314A69897</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>6B2522ACA5C1E727A9683FF15409B29A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F31AE590602E2A4327286906B08D422F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6D19B3DA6D814052DF83C04A0F663867</key>
-		<dict>
-			<key>fileRef</key>
-			<string>205C85E22BD3C8FEE45BD92950AAC6AB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6D1FBB7E749CAE4D77BEF324AF1C3EFD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>XLFormRightDetailCell.m</string>
-			<key>path</key>
-			<string>XLForm/XL/Helpers/Views/XLFormRightDetailCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6D98FAD436FCB964D6B31EAFE5C56D5B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>511A12F25FFDA3411C2B5CBF44993C67</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>6E17B3C41295ADD638FDD47FEB69C0CE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DAFAED24B5AA0B748C71F1279954E582</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7358822793A93F51C9D574CC40C8E415</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>XLForm-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>74BFE3A19298AE2BA1D5F0E325F81B04</key>
-		<dict>
-			<key>fileRef</key>
-			<string>52F24E8AEB897E9F0B9269A561B361DD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>75E1980F348EBA6E517E1B57CE1CFF0E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>60968A4E6F8AFD89BE3661FBF549E1BB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>768625257F5B402C8DB3C6E117982967</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>XLFormTextView.m</string>
-			<key>path</key>
-			<string>XLForm/XL/Helpers/Views/XLFormTextView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>77E988E4E9A74E5700A3F949575595C5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>490843359254A7F93B799829B74D6D78</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>77FA11CC2242229BC6D02CFBB7A2BF81</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F50084EB4D593C8CA13B6E1DCF4CB9DE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7B629406A42AADFACBB21145E78D1663</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3C9854452B704969D40D932335DEE0FF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CA3AB63BD3735A8B4D5E0C33B9899ED</key>
+		<key>6D9BC2FE9C812C5E4CEBAA3F8EBF4CCE</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1387,11 +1597,247 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>XLFormDescriptorCell.h</string>
+			<string>SHSPhoneNumberFormatter+UserConfig.h</string>
 			<key>path</key>
-			<string>XLForm/XL/Cell/XLFormDescriptorCell.h</string>
+			<string>SHSPhoneComponents/SHSPhoneNumberFormatter+UserConfig.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6F179D325E03B78F00DAAC297F1D83AE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B61BC155A3BA3420BF63AC6E5261E2CC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>700ECBF33FA82F2EA73B51A4338D8E46</key>
+		<dict>
+			<key>fileRef</key>
+			<string>47C02A7EA01923C869DBCB3F38997023</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>70BCAA8F6FB1B569D45206BA1CD97424</key>
+		<dict>
+			<key>fileRef</key>
+			<string>16B142721588F473BC25F54B344C50A4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>7248D08F4C100907B696DCDBD134E8C1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SHSPhoneNumberFormatter.h</string>
+			<key>path</key>
+			<string>SHSPhoneComponents/SHSPhoneNumberFormatter.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>740334E9F39A55C50A61CE2951578186</key>
+		<dict>
+			<key>fileRef</key>
+			<string>02E2DDCF5F34CE74F75A823E542E1D26</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>7429137BA8C424F6EC57F74B001E6BD9</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>600D3B9DB4FF48112C723E000B479F5A</string>
+				<string>B6D53D299C361B8A5BEA783DA80DBEB4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>76416B998C3486309468A413222ED770</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>01F0421ADA63DD112EBFA986BD82300A</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/SHSPhoneComponent/SHSPhoneComponent-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>764785064DFAAF9084F83DABBDE8DB95</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4BB404508467D3DD9889189229747E76</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>791ED531E77DFAB298E79F04EC8EC34D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4CB21D9A53B7106FB5352BD7CC7D7BC8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>7990B490853138F94C9EE37E028193B5</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>F4DA259836FDB61FC085172FF91BB247</string>
+				<string>B1599B4775F14B14B82650AD5358730A</string>
+				<string>9AD362CDEF12E0AEC0C08445772D8018</string>
+				<string>0A86B9DF82334498FEEE73613E2B3C56</string>
+				<string>0C555D24DA4342CCB0EBEFDF75C45275</string>
+				<string>3CE938101CFCBBCF4E7A9523115AC317</string>
+				<string>5718AB7480D0DA67C65F596C6C3400A0</string>
+				<string>447925058030B5B315F7AED0463C9F39</string>
+				<string>429537E8B03A284BFD29362362B8AD79</string>
+				<string>1F661E2F1DA2729D81F9716410CC9D47</string>
+				<string>9E9025E98B2C13892A75C528229B7752</string>
+				<string>BFF436266CCC60CD9F273E68090C3562</string>
+				<string>56DD6C856D20E16D58DB49A957D92CBB</string>
+				<string>3386679FEAD0945937669E2C5708633A</string>
+				<string>D4635B242194C0A04003B7305C0C49CA</string>
+				<string>7ECD8C6A789BA94E23D3AC2B68D5C89E</string>
+				<string>CDDC3A20CC971B008B0CBEEA3550AACF</string>
+				<string>46AF857255375A0BD517D05A34E88B37</string>
+				<string>700ECBF33FA82F2EA73B51A4338D8E46</string>
+				<string>571F9D0C482FD6311309BB2F0BC06AAE</string>
+				<string>DC466BED875C9D442D7027202F29933C</string>
+				<string>1E35EE6A79F8E7679A543A8E976F573B</string>
+				<string>338C0C447AB275F88C1B8860B3506209</string>
+				<string>96D12E86ABE25270F47702C57C6D929F</string>
+				<string>51767348B538870D2C386AE72B5EA950</string>
+				<string>148A505D972F5EF6C83F62C31473BADD</string>
+				<string>26ADDDB4D74D38F57F35CCBA7BBC4556</string>
+				<string>198BBDADFB323668B932C41897C2F037</string>
+				<string>9811F4AF368C7329F9D4C1556B661E6C</string>
+				<string>562ABFD0FBD8152A6ACF67221BF3D120</string>
+				<string>70BCAA8F6FB1B569D45206BA1CD97424</string>
+				<string>A9FB2D13B2730336E0CC374C8BD63339</string>
+				<string>67D61D208DB051110673F335DE018131</string>
+				<string>A61FED02AD31D91DF29B755E9ED87D7F</string>
+				<string>740334E9F39A55C50A61CE2951578186</string>
+				<string>23F4479E65A915AA59B058838D1052C5</string>
+				<string>A5B0F41ABC00B504AB790263BE8ED4EB</string>
+				<string>09AA6DE7DDD90F133A9EB850ECCD9FCB</string>
+				<string>114F444DBB4043A23FC331F97A25F699</string>
+				<string>791ED531E77DFAB298E79F04EC8EC34D</string>
+				<string>764785064DFAAF9084F83DABBDE8DB95</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>7B4FA45EB46A0F3E5E813570B697667A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E2041339DC9EAA675194A17DF4501687</string>
+				<string>A9AD3A87C1C9F433F1E560D089934CAC</string>
+				<string>0CFB4CEB67613A78C5E578D82D022AB0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7BAA7D45396E4C485F605624E8E80062</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>XLFormDateCell.m</string>
+			<key>path</key>
+			<string>XLForm/XL/Cell/XLFormDateCell.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7BB2F30ED0776B94C707070F3CDE2C83</key>
+		<dict>
+			<key>fileRef</key>
+			<string>92FB048549A914072C8875B2280712D3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>7DB346D0F39D3F0E887471402A8071AB</key>
 		<dict>
@@ -1399,8 +1845,8 @@
 			<array>
 				<string>93A4A3777CF96A4AAC1D13BA6DCCEA73</string>
 				<string>122DA2E5084A4393C29BE363C764795C</string>
-				<string>E0240AEE30BECE480D338E4635CFD990</string>
-				<string>1D77C60A9346C12EB35BAF7F4F2A6255</string>
+				<string>7429137BA8C424F6EC57F74B001E6BD9</string>
+				<string>7B4FA45EB46A0F3E5E813570B697667A</string>
 				<string>80007E273E1DFFD2A658521F92A4071D</string>
 			</array>
 			<key>isa</key>
@@ -1408,10 +1854,31 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>7DFF82BA62A5BD631B5506672C259740</key>
+		<key>7E93BE5332718AD4B5EF8E269203897E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DB1BB73FD81F9DD1EC59FDC1BC0B8C51</string>
+			<string>20085DE1306A71D168E3B1E19C1DCE4E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7ECD8C6A789BA94E23D3AC2B68D5C89E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D606EFBD3CB59210283B8ACD289BC238</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>7F06EEC8B4CF9FB4E861B2CA5B43D7A7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>92B44F5006B8B8C346217F14F3D1D044</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -1428,121 +1895,99 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>816ED6346DDC64B0BD95A484089BF3C7</key>
+		<key>80220E807C164255761EAE6A2B47CEA1</key>
 		<dict>
 			<key>fileRef</key>
-			<string>CAB2274646F6341E2F845C8C0A8E028D</string>
+			<string>CC1757DDDF90E0EF5DB35FB1281CF7FA</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>827682C2158C10CBD8DCD199989D8BEA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>303730BFD89A36A19C14C2F9D67D1CFE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>82D20A3A9D91A2C5759B418C13E6476B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>87F5C2B936CA3CDA73A204D61A90A66E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8648EB3A3A120528956EC3BCF6EEB363</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E5CEF80F2E4C382FFB0F7F57D8BA7AEB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>86AAFEF1CCB42115425957CD33ADA370</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A26232D58E1858F5FDD0993AEE478B33</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>87F41B09AC808161DCEE79A6246223DD</key>
+		<key>813BEDD1A1EC201E2631A2B386C830D5</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>XLFormRegexValidator.m</string>
+			<string>NSString+XLFormAdditions.h</string>
 			<key>path</key>
-			<string>XLForm/XL/Validation/XLFormRegexValidator.m</string>
+			<string>XLForm/XL/Helpers/NSString+XLFormAdditions.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>87F5C2B936CA3CDA73A204D61A90A66E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>XLFormRowDescriptor.m</string>
-			<key>path</key>
-			<string>XLForm/XL/Descriptors/XLFormRowDescriptor.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>89A90E8B598FB36C74839A6E8560CDD1</key>
+		<key>830B73C3988C0E6B7C7DFF4FD0216CEF</key>
 		<dict>
 			<key>fileRef</key>
-			<string>93E9C9BC6B09C1D12C5CDA4431441AE6</string>
+			<string>575E3E506B5316D7EA3E7277BEA3A48B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
 		</dict>
-		<key>8A22B80318CD49834D875AE38EE173A4</key>
+		<key>8428B7414CE9372D9DE1F1FBFC8B3C3B</key>
 		<dict>
-			<key>fileRef</key>
-			<string>7CA3AB63BD3735A8B4D5E0C33B9899ED</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>8CBB327F60D55A7E375FEBA0DDE0C3CC</key>
-		<dict>
-			<key>buildConfigurations</key>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
 			<array>
-				<string>CEFF2A850A19EEDF29B6BD643E16ACD4</string>
-				<string>EF6DE896C85EC58652773D864BAAADC1</string>
+				<string>7BB2F30ED0776B94C707070F3CDE2C83</string>
+				<string>2B6692BED20984FB3AACF3039354AACC</string>
+				<string>0B22AB45D5E6AF139C823D3270463899</string>
+				<string>E9DF758A2085EB393BCA6A5E76E58D03</string>
+				<string>36CD860B560BCA1A2B8ABEB481FAB9AB</string>
+				<string>2B7BF42C835C52DCBAE5036C0A00D3A8</string>
 			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
-		<key>8D553911C173D0C940666DC2125E3BEF</key>
+		<key>84E4F151DFD9AF3E2043A55069CEC251</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5B8AA894FE488049A244BD6475D6F1EB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>855081437D09A87D23C5BDF09DE3CC1B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>F218B4FD77B6180BA1EBCC5151C0268F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>85ACE508EA1BB89D1FC1A76A040B41B2</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>D7B4BEB4DCC2329A9B149F6B70AD7267</string>
+			<key>buildPhases</key>
+			<array>
+				<string>2E272310DF66BFA4952AF1BEF236321E</string>
+				<string>AFB4EA08A4E78C8F904357B29021FA3E</string>
+				<string>7990B490853138F94C9EE37E028193B5</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>XLForm</string>
+			<key>productName</key>
+			<string>XLForm</string>
+			<key>productReference</key>
+			<string>0CFB4CEB67613A78C5E578D82D022AB0</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>87B438FC144F8DAE99374EE1F51CA2FE</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1551,13 +1996,50 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>XLFormTextFieldCell.m</string>
+			<string>XLFormRowNavigationAccessoryView.m</string>
 			<key>path</key>
-			<string>XLForm/XL/Cell/XLFormTextFieldCell.m</string>
+			<string>XLForm/XL/Helpers/Views/XLFormRowNavigationAccessoryView.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8DD6D999D6DCE497676D29107DCB7828</key>
+		<key>87DB09389E9F5CED7E9ADEC24A5B3801</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>XLFormSectionDescriptor.m</string>
+			<key>path</key>
+			<string>XLForm/XL/Descriptors/XLFormSectionDescriptor.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>88E6C749C9823930AB0E25DE4DEEF239</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>XLFormBaseCell.h</string>
+			<key>path</key>
+			<string>XLForm/XL/Cell/XLFormBaseCell.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8D6EEF3CA94EE7AB957083CE76308383</key>
+		<dict>
+			<key>fileRef</key>
+			<string>318484F186592A0CFD52787FD92E1F9B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8EBFD6F1D8BA8F61E81565C2D9DB99EF</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1572,7 +2054,14 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8F673F682587D35FD2211B73123ADE05</key>
+		<key>8EC3EBA8BA2C35EFCADC5A1C6CDDD5AD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2BC67384C72E9442D40AA641FE4F6099</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8FFCE2E37258A45111B2803C380CD942</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1581,34 +2070,13 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>XLFormRightImageButton.h</string>
+			<string>XLFormRowDescriptor.h</string>
 			<key>path</key>
-			<string>XLForm/XL/Helpers/Views/XLFormRightImageButton.h</string>
+			<string>XLForm/XL/Descriptors/XLFormRowDescriptor.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8F8DCF4156AD6581E739FE0ED8E6D5AA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B4B317B0E428DB205A217C1978005CD7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8FA321AFE76E63D31AD63417ADC8600C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>908A6BD67F23923F0C8FD317601E261B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8FE12BB968E7E32B8E8763B2F2B8FE7E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>945C8EFA0D38734C4EEB9F5433E4F499</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8FFC23553A0DA4ADD5464DACB64037C4</key>
+		<key>917305B77BC35B48CBFFEAF140F790D9</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1617,28 +2085,13 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>XLFormValidatorProtocol.h</string>
+			<string>XLFormValidator.h</string>
 			<key>path</key>
-			<string>XLForm/XL/Validation/XLFormValidatorProtocol.h</string>
+			<string>XLForm/XL/Validation/XLFormValidator.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>906B717D4126576632381019534B56C3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>XLFormRowDescriptorViewController.h</string>
-			<key>path</key>
-			<string>XLForm/XL/Controllers/XLFormRowDescriptorViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>908A6BD67F23923F0C8FD317601E261B</key>
+		<key>925E20F3E554ABCCBB14C84864688B6B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1653,22 +2106,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>91D24677FC4AA6035EDB80A1311C8176</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>XLFormDateCell.h</string>
-			<key>path</key>
-			<string>XLForm/XL/Cell/XLFormDateCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>92AB7AA67399F1F8023B02486BEFEF5C</key>
+		<key>92B44F5006B8B8C346217F14F3D1D044</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1677,9 +2115,37 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>XLForm.m</string>
+			<string>XLFormSliderCell.m</string>
 			<key>path</key>
-			<string>XLForm/XL/XLForm.m</string>
+			<string>XLForm/XL/Cell/XLFormSliderCell.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>92BA4F9FAC3DEFBCA1F5BB6BE372BB27</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BA858BB63671A761C0FB8786F8610C25</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Resources</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>92FB048549A914072C8875B2280712D3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SHSFlagAccessoryView.m</string>
+			<key>path</key>
+			<string>SHSPhoneComponents/SHSFlagAccessoryView.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1702,62 +2168,17 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>93E9C9BC6B09C1D12C5CDA4431441AE6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>XLForm.h</string>
-			<key>path</key>
-			<string>XLForm/XL/XLForm.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>945C8EFA0D38734C4EEB9F5433E4F499</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>XLFormSelectorCell.m</string>
-			<key>path</key>
-			<string>XLForm/XL/Cell/XLFormSelectorCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>959305A6E90B06EF8B312644BEFB2C92</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>XLFormTextViewCell.m</string>
-			<key>path</key>
-			<string>XLForm/XL/Cell/XLFormTextViewCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>95A7294ACDB0630E1E73D6ADF00A88FC</key>
+		<key>96877FA727EC0D4E214BFEA6C1138BF4</key>
 		<dict>
 			<key>fileRef</key>
-			<string>62083229BEA77A221A43106A133D0125</string>
+			<string>C0DCCD11F695C9C0AA9BF839050DFF03</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>962636BE66B20B6C0A1336121042F2A0</key>
+		<key>96D12E86ABE25270F47702C57C6D929F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>38F18BE5C3F4F1D7BF7FB11C62463D3C</string>
+			<string>3B35B7F8CAB755712F44C75B70F318DD</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1768,30 +2189,10 @@
 				</array>
 			</dict>
 		</dict>
-		<key>979C04504FD2D00FA04623CBAF4710EA</key>
+		<key>9811F4AF368C7329F9D4C1556B661E6C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>BB7B8616BAFAEC74882DDBAF947C09D8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>97F387646618CB06B86E87A72EF44DB3</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>57A5D98B6577B2CEC97237D5C16AECB2</string>
-			<key>remoteInfo</key>
-			<string>XLForm</string>
-		</dict>
-		<key>9B315F95F7A42B90BBE42888F7121FD8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CA70F8ACE58E498215D37D5807DD4069</string>
+			<string>30D568FAC759C2D29E3E75DD8EFBE3C6</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1801,6 +2202,75 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>996285CB33F8069319A176879B6A7889</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>CA4E287C2FFFE67F950BEBB1C0FC7CCA</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.2</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>9AD362CDEF12E0AEC0C08445772D8018</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2D9CE74C277756C450372C4D8C1CDB3C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>9BD7344D781BAC408D79B965DFB7BC70</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>XLFormDescriptor.m</string>
+			<key>path</key>
+			<string>XLForm/XL/Descriptors/XLFormDescriptor.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>9CCA4870560780678D4221D67FDA0557</key>
 		<dict>
@@ -1815,17 +2285,39 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>9E085C2A64680EBE651984CC4486AB7E</key>
+		<key>9CCC78A381E547E17F34EF72FBBEF4B0</key>
 		<dict>
 			<key>fileRef</key>
-			<string>3692D6BDB1A49EF788B064103A14B0BD</string>
+			<string>4384675174F10B7DEB2B2BEC983C7001</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>9E252F1FF978218BCEEE378FD14EA994</key>
+		<key>9D670AFE4BB85578F6837AC6589EE301</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B257548AB13EDC05123D1C6487AFE9B0</string>
+			<string>87DB09389E9F5CED7E9ADEC24A5B3801</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9E0ADD74E358CCE8A6171F15987108BB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>XLFormDescriptorDelegate.h</string>
+			<key>path</key>
+			<string>XLForm/XL/Descriptors/XLFormDescriptorDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9E9025E98B2C13892A75C528229B7752</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1DD5561A3D423786C579CF7A1185C90C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1836,7 +2328,36 @@
 				</array>
 			</dict>
 		</dict>
-		<key>A1582E557AB3DDFC63369C69509A7693</key>
+		<key>9EAB83C3DDA7E5A5736939053877F926</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>XLFormTextViewCell.h</string>
+			<key>path</key>
+			<string>XLForm/XL/Cell/XLFormTextViewCell.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A05501454D5B71276094CE17CF76A3D1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3C9854452B704969D40D932335DEE0FF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A2BDA8522576141163AC1ACB08D75D8A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CA5C185A8C6BB5FDE70C0849301CFCE5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A38D117F7E6A31D0B693DC052113ADB8</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1845,61 +2366,146 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>XLFormValidationStatus.m</string>
+			<string>XLFormSegmentedCell.m</string>
 			<key>path</key>
-			<string>XLForm/XL/Validation/XLFormValidationStatus.m</string>
+			<string>XLForm/XL/Cell/XLFormSegmentedCell.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A25097E371F886E978C59C5FC1AE9D63</key>
+		<key>A4C4B6B5D7AF58061B9FFF86F1468E79</key>
 		<dict>
 			<key>fileRef</key>
-			<string>87F41B09AC808161DCEE79A6246223DD</string>
+			<string>B2ABDB671E7D71D272D1FFBED86F8151</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>A26232D58E1858F5FDD0993AEE478B33</key>
+		<key>A4F90498807743A14EE9CF57122D4AEC</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>AACD3D19E7415D5E49642A49ED015FAB</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/XLForm/XLForm-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>A5B0F41ABC00B504AB790263BE8ED4EB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9EAB83C3DDA7E5A5736939053877F926</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>A61FED02AD31D91DF29B755E9ED87D7F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>37207EB7295506ADF4229A624E8934D9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>A84D2EAA56398B3A87FB5289D123827D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>XLFormBaseCell.m</string>
+			<string>XLFormSegmentedCell.h</string>
 			<key>path</key>
-			<string>XLForm/XL/Cell/XLFormBaseCell.m</string>
+			<string>XLForm/XL/Cell/XLFormSegmentedCell.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A3E43263E8EB7AD84356E59824532828</key>
+		<key>A8994AC32E7C2E29066DA95C37951D41</key>
 		<dict>
-			<key>fileRef</key>
-			<string>2930A621FE66C0891BA65CD2AAF512E0</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SHSPhoneLibrary.h</string>
+			<key>path</key>
+			<string>SHSPhoneComponents/SHSPhoneLibrary.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A8F7835EEADC534D9BCF010045854E79</key>
+		<key>A9A6C920818ED298AB79935276CE79AB</key>
 		<dict>
-			<key>fileRef</key>
-			<string>AE588EFDF7290D93D70940E1172FE738</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>XLFormOptionsViewController.h</string>
+			<key>path</key>
+			<string>XLForm/XL/Controllers/XLFormOptionsViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A9AD3A87C1C9F433F1E560D089934CAC</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libSHSPhoneComponent.a</string>
+			<key>path</key>
+			<string>libSHSPhoneComponent.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>A9E8533E615EA7FD02D27524E68EE149</key>
 		<dict>
@@ -1979,76 +2585,10 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>A9FE5F2FDBF19050D35206AB1FDFDDA8</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libXLForm.a</string>
-			<key>path</key>
-			<string>libXLForm.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>AAAC6CFA40AF6294AE3389C41C1DCD92</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSArray+XLFormAdditions.h</string>
-			<key>path</key>
-			<string>XLForm/XL/Helpers/NSArray+XLFormAdditions.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AB3B6E1D39DF3D420FE2FA1A4256DE6B</key>
+		<key>A9FB2D13B2730336E0CC374C8BD63339</key>
 		<dict>
 			<key>fileRef</key>
-			<string>A1582E557AB3DDFC63369C69509A7693</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>ABF6192B2A2F7E92357CD1868A37C399</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8D553911C173D0C940666DC2125E3BEF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>ABFD65BC8DFFCF6177A94B5F21C183F9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>XLFormSliderCell.m</string>
-			<key>path</key>
-			<string>XLForm/XL/Cell/XLFormSliderCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AD66F68428687B78E601E092C3213C6F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4DAF62FD1ED79962EB71CEE7B76004DF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>ADC399B76FEF30729C83BA1E23CB479E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E207FBAA4BF45657D05914516E62256</string>
+			<string>4936DF971DB5D85178867C6FFDE4599E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2059,7 +2599,61 @@
 				</array>
 			</dict>
 		</dict>
-		<key>AE588EFDF7290D93D70940E1172FE738</key>
+		<key>AACD3D19E7415D5E49642A49ED015FAB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>XLForm.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ACF52DB2CAB32CFF2C961BC530B3D14E</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>D5665C49A7D776D0B9A94677E5DFB5C8</string>
+			<key>buildPhases</key>
+			<array>
+				<string>64B0A55526E6271A9449EF167058534C</string>
+				<string>855081437D09A87D23C5BDF09DE3CC1B</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>1FBD3805B13558EA94120B280D5DCE6D</string>
+				<string>6C895CEB1A36CE807F2CBD87005A3AEF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-ios_checkout</string>
+			<key>productName</key>
+			<string>Pods-ios_checkout</string>
+			<key>productReference</key>
+			<string>E2041339DC9EAA675194A17DF4501687</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>AE0407276CDD360641C76A6CF38E7415</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6D9BC2FE9C812C5E4CEBAA3F8EBF4CCE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>AE3C51C2FDABD87DF5079ECA5F7AFB5D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2068,89 +2662,31 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>NSString+XLFormAdditions.h</string>
+			<string>XLFormOptionsObject.h</string>
 			<key>path</key>
-			<string>XLForm/XL/Helpers/NSString+XLFormAdditions.h</string>
+			<string>XLForm/XL/Controllers/XLFormOptionsObject.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>AF2A835D7CB8D7138DF8157B52A84705</key>
-		<dict>
-			<key>fileRef</key>
-			<string>135287838DDB21CC42F3DBB24614040C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF48F77601EBDCBD1612127EA951530F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E08BB83B76CA6C754366CC70A7969446</string>
-				<string>7358822793A93F51C9D574CC40C8E415</string>
-				<string>B37779757DE0A47EFB462D088F0DBBF8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/XLForm</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AFC70801B663839959C3C144F92C146B</key>
+		<key>AFB4EA08A4E78C8F904357B29021FA3E</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>6D19B3DA6D814052DF83C04A0F663867</string>
-				<string>827682C2158C10CBD8DCD199989D8BEA</string>
-				<string>7DFF82BA62A5BD631B5506672C259740</string>
-				<string>11811A516203D887E883E86E3DA17069</string>
-				<string>6E17B3C41295ADD638FDD47FEB69C0CE</string>
-				<string>AD66F68428687B78E601E092C3213C6F</string>
-				<string>3D7498C45942CF22A6737C5E1D84A1DD</string>
-				<string>2BD5C061CDAD7FE600A53CFEDF79E25E</string>
-				<string>86AAFEF1CCB42115425957CD33ADA370</string>
-				<string>00C72C2D2ACA3CAD2ECBE9D30A3682CD</string>
-				<string>6B2522ACA5C1E727A9683FF15409B29A</string>
-				<string>77FA11CC2242229BC6D02CFBB7A2BF81</string>
-				<string>AF2A835D7CB8D7138DF8157B52A84705</string>
-				<string>303ED006C9D63046F0632BD585635F32</string>
-				<string>BF67B1F6F00632C629B2D51C0A05668B</string>
-				<string>8F8DCF4156AD6581E739FE0ED8E6D5AA</string>
-				<string>EEB74BFC46CC6F0793A2B0B1969AA330</string>
-				<string>041612861C5F97A8970864B12C990301</string>
-				<string>8FA321AFE76E63D31AD63417ADC8600C</string>
-				<string>BB50CD23B21EF025D6124ECD99B6D8D7</string>
-				<string>A25097E371F886E978C59C5FC1AE9D63</string>
-				<string>6329145450E7D47A9CF652245C7B715D</string>
-				<string>C3AE2011C7D335E0C4F366AB1749C1CC</string>
-				<string>82D20A3A9D91A2C5759B418C13E6476B</string>
-				<string>9E085C2A64680EBE651984CC4486AB7E</string>
-				<string>5AD70656C544700C1A334250B86036C3</string>
-				<string>31726E4D0466302C7D5B7780B6D7F2EA</string>
-				<string>8FE12BB968E7E32B8E8763B2F2B8FE7E</string>
-				<string>BF55C4D24BF14D77B5BAB827076B3B8C</string>
-				<string>816ED6346DDC64B0BD95A484089BF3C7</string>
-				<string>BADB6A15C242D314FADCA893C018DCFB</string>
-				<string>ABF6192B2A2F7E92357CD1868A37C399</string>
-				<string>5D8A13C61923A889550CF22ECE8533D3</string>
-				<string>5FE1616BCCF3E12A94BB9070103DE250</string>
-				<string>AB3B6E1D39DF3D420FE2FA1A4256DE6B</string>
-				<string>95A7294ACDB0630E1E73D6ADF00A88FC</string>
-				<string>F13AEE790CB5D263E6C148DA06B8DE1F</string>
+				<string>B5B21AF580439318A7E32CC32301257F</string>
+				<string>A05501454D5B71276094CE17CF76A3D1</string>
+				<string>B653E53738546A05E8ABD38AFBD9B26B</string>
 			</array>
 			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
+			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>B0028397C6030DF95D94C0E83433B1CE</key>
+		<key>B1599B4775F14B14B82650AD5358730A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>1C3B5AE8FC0A3384B4C7BFED4BB9E0C7</string>
+			<string>D480C5B39D5A4C3598E8E6F3B4914497</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2161,7 +2697,14 @@
 				</array>
 			</dict>
 		</dict>
-		<key>B04CDD702D8685E9476A0E7BCE0100D7</key>
+		<key>B26D29A05AA749089CC5CA27D998A655</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F58A8D09C95087F2239778A03D3EE5F2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B2ABDB671E7D71D272D1FFBED86F8151</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2170,82 +2713,9 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>XLFormSwitchCell.m</string>
+			<string>XLFormTextViewCell.m</string>
 			<key>path</key>
-			<string>XLForm/XL/Cell/XLFormSwitchCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B257548AB13EDC05123D1C6487AFE9B0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>XLFormTextViewCell.h</string>
-			<key>path</key>
-			<string>XLForm/XL/Cell/XLFormTextViewCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B2DD202CD6DEA7DCEB0797AA767AA338</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>XLFormSegmentedCell.h</string>
-			<key>path</key>
-			<string>XLForm/XL/Cell/XLFormSegmentedCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B37779757DE0A47EFB462D088F0DBBF8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>XLForm-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B3F86432E9F2EADCF51B8B3EB9C764AC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>XLFormDescriptor.h</string>
-			<key>path</key>
-			<string>XLForm/XL/Descriptors/XLFormDescriptor.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B4B317B0E428DB205A217C1978005CD7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>XLFormInlineSelectorCell.m</string>
-			<key>path</key>
-			<string>XLForm/XL/Cell/XLFormInlineSelectorCell.m</string>
+			<string>XLForm/XL/Cell/XLFormTextViewCell.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2262,35 +2732,29 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>B7B16639586DF969337F3CE2ADD7583C</key>
+		<key>B5489A2684C6C76F5B8364928088B209</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>XLFormRightImageButton.m</string>
+			<key>path</key>
+			<string>XLForm/XL/Helpers/Views/XLFormRightImageButton.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B5B21AF580439318A7E32CC32301257F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>8F673F682587D35FD2211B73123ADE05</string>
+			<string>B4CCDF0ACEE37ED4308724E62FCDE939</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
 		</dict>
-		<key>B7E7425CD5FF9237797FEABB49EC285A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>560465490187377C1C4B5DACB5374033</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>BA0C220050C826C4F62E199169FF95A1</key>
+		<key>B5FF67142E76CE1CCD21756D9BED6B55</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2299,25 +2763,204 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>XLFormCheckCell.h</string>
+			<string>NSArray+XLFormAdditions.h</string>
 			<key>path</key>
-			<string>XLForm/XL/Cell/XLFormCheckCell.h</string>
+			<string>XLForm/XL/Helpers/NSArray+XLFormAdditions.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>BADB6A15C242D314FADCA893C018DCFB</key>
+		<key>B61BC155A3BA3420BF63AC6E5261E2CC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSObject+XLFormAdditions.m</string>
+			<key>path</key>
+			<string>XLForm/XL/Helpers/NSObject+XLFormAdditions.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B653E53738546A05E8ABD38AFBD9B26B</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B04CDD702D8685E9476A0E7BCE0100D7</string>
+			<string>0F2331BAF78D4EDDCD400CF6388C7978</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>BB50CD23B21EF025D6124ECD99B6D8D7</key>
+		<key>B6D53D299C361B8A5BEA783DA80DBEB4</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B5FF67142E76CE1CCD21756D9BED6B55</string>
+				<string>1F42B9D143EFA772CDA19B3C6DAEC7E4</string>
+				<string>D480C5B39D5A4C3598E8E6F3B4914497</string>
+				<string>CC1757DDDF90E0EF5DB35FB1281CF7FA</string>
+				<string>2D9CE74C277756C450372C4D8C1CDB3C</string>
+				<string>B61BC155A3BA3420BF63AC6E5261E2CC</string>
+				<string>CEA52C21BCBECDF9730A11871D5FD460</string>
+				<string>E90FF770D97223CDB2F0A74538F1B63F</string>
+				<string>813BEDD1A1EC201E2631A2B386C830D5</string>
+				<string>08FEC782C59DC1BD26853060CE99B357</string>
+				<string>4E88602F308603632E7C0636EEA5D58B</string>
+				<string>432D2D67A552EC385F9D5787D1E9AA37</string>
+				<string>3CD422726C6727545A312EEAFD62F2A3</string>
+				<string>FA6F3BA4053EF710B0C2B685A4CEC0AE</string>
+				<string>88E6C749C9823930AB0E25DE4DEEF239</string>
+				<string>E87D8A958CBB697D9F4AF44FBB985DE1</string>
+				<string>8EBFD6F1D8BA8F61E81565C2D9DB99EF</string>
+				<string>4384675174F10B7DEB2B2BEC983C7001</string>
+				<string>26E9C723511853F6E9B1BA608C47E642</string>
+				<string>FBD85B9C9C7B320E14CC1AEA7368D4F4</string>
+				<string>1DD5561A3D423786C579CF7A1185C90C</string>
+				<string>7BAA7D45396E4C485F605624E8E80062</string>
+				<string>5D5C786F34A75CCD476629DA2B064F92</string>
+				<string>318484F186592A0CFD52787FD92E1F9B</string>
+				<string>36F53702B5F75B960F1D6D0D8EFAEFE6</string>
+				<string>9BD7344D781BAC408D79B965DFB7BC70</string>
+				<string>D7A49AA92B76E0A411DD3C7D40CED8FE</string>
+				<string>9E0ADD74E358CCE8A6171F15987108BB</string>
+				<string>D606EFBD3CB59210283B8ACD289BC238</string>
+				<string>CA5C185A8C6BB5FDE70C0849301CFCE5</string>
+				<string>CB5F370266F196E4EBAFCE7ED5FACDD9</string>
+				<string>0724CA1EAE95472E08D272B68B5B93E4</string>
+				<string>575E3E506B5316D7EA3E7277BEA3A48B</string>
+				<string>47C02A7EA01923C869DBCB3F38997023</string>
+				<string>5B8AA894FE488049A244BD6475D6F1EB</string>
+				<string>AE3C51C2FDABD87DF5079ECA5F7AFB5D</string>
+				<string>FBAF348E68F6042C7C71D4A29132695C</string>
+				<string>A9A6C920818ED298AB79935276CE79AB</string>
+				<string>925E20F3E554ABCCBB14C84864688B6B</string>
+				<string>C78403E2C641AA4250813AD5A8F0CBF7</string>
+				<string>C0DCCD11F695C9C0AA9BF839050DFF03</string>
+				<string>CBCFC8D452458458E95B6A39B80C93BE</string>
+				<string>EF7EBC67863B0A26583F3614C5D087DA</string>
+				<string>3B35B7F8CAB755712F44C75B70F318DD</string>
+				<string>2BC67384C72E9442D40AA641FE4F6099</string>
+				<string>E94631B9BC0DCB51B01057FC745C6539</string>
+				<string>B5489A2684C6C76F5B8364928088B209</string>
+				<string>8FFCE2E37258A45111B2803C380CD942</string>
+				<string>1E1E4E4F8E86FBAEEE03B68C8B651F78</string>
+				<string>523C4BED555B432BC7D10C29A19BA876</string>
+				<string>51191D685AA9CBEEA26713FB5552C1F5</string>
+				<string>87B438FC144F8DAE99374EE1F51CA2FE</string>
+				<string>30D568FAC759C2D29E3E75DD8EFBE3C6</string>
+				<string>87DB09389E9F5CED7E9ADEC24A5B3801</string>
+				<string>A84D2EAA56398B3A87FB5289D123827D</string>
+				<string>A38D117F7E6A31D0B693DC052113ADB8</string>
+				<string>16B142721588F473BC25F54B344C50A4</string>
+				<string>225BBB4380BDF6E0CE7A773A19D87555</string>
+				<string>4936DF971DB5D85178867C6FFDE4599E</string>
+				<string>92B44F5006B8B8C346217F14F3D1D044</string>
+				<string>3BA222EC26E3A933FCCAC772487B48DF</string>
+				<string>FA422B05D33CD2C3FC57897EC1CCA69E</string>
+				<string>37207EB7295506ADF4229A624E8934D9</string>
+				<string>F58A8D09C95087F2239778A03D3EE5F2</string>
+				<string>02E2DDCF5F34CE74F75A823E542E1D26</string>
+				<string>6138C85BCC7735A5305D3DD42C16A758</string>
+				<string>4BE6EAD9EB4C6898318F3F1FF9265483</string>
+				<string>BCA605F11A2EAAB628B0DAA261EFD5D8</string>
+				<string>9EAB83C3DDA7E5A5736939053877F926</string>
+				<string>B2ABDB671E7D71D272D1FFBED86F8151</string>
+				<string>B762CFA93480B1C9AFE1F64F4C3E8771</string>
+				<string>20085DE1306A71D168E3B1E19C1DCE4E</string>
+				<string>917305B77BC35B48CBFFEAF140F790D9</string>
+				<string>033679E8C49BE5D0150086BE6DB4A73B</string>
+				<string>4CB21D9A53B7106FB5352BD7CC7D7BC8</string>
+				<string>4BB404508467D3DD9889189229747E76</string>
+				<string>3C40D61089C47AB1704D1BD98AEA73C6</string>
+				<string>92BA4F9FAC3DEFBCA1F5BB6BE372BB27</string>
+				<string>E5328EB2EEC251B5492F9B400A9E494D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>XLForm</string>
+			<key>path</key>
+			<string>XLForm</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B762CFA93480B1C9AFE1F64F4C3E8771</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>XLFormValidationStatus.h</string>
+			<key>path</key>
+			<string>XLForm/XL/Validation/XLFormValidationStatus.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B78C1862C08CEB9C721D88A9BBE4A2D6</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>76416B998C3486309468A413222ED770</string>
+				<string>5AFA1C76A107F3B4F0EDE49EF9844F80</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>B897ADCE2B828DBF66FB614D33663DF8</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C662F6D9C645355B5DA34633C68BB3AB</string>
+			<string>225DFCE92E01BC3B68CECA24D67710B9</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>B9F709BAE883BE93E8BE1C93AF2872F9</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>37E4C6B4097A8337CB4713D7BEF58152</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>BA858BB63671A761C0FB8786F8610C25</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.plug-in</string>
+			<key>name</key>
+			<string>XLForm.bundle</string>
+			<key>path</key>
+			<string>XLForm/XLForm.bundle</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BB0D60298D081DA313341B010021D4D3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4070DB201A64AB717E765C7BAFEC7D5D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>BB7B8616BAFAEC74882DDBAF947C09D8</key>
 		<dict>
@@ -2332,10 +2975,47 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>BC7B266878739DCC9BF576F7FB03CAC1</key>
+		<key>BC53628ECE4D2FDFE5CCFCCB1A9DEF43</key>
 		<dict>
 			<key>fileRef</key>
-			<string>91D24677FC4AA6035EDB80A1311C8176</string>
+			<string>BB7B8616BAFAEC74882DDBAF947C09D8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BCA605F11A2EAAB628B0DAA261EFD5D8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>XLFormTextView.m</string>
+			<key>path</key>
+			<string>XLForm/XL/Helpers/Views/XLFormTextView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BEE22F608B7EEAAF54311E3ADF3ABB9B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SHSPhoneLogic.m</string>
+			<key>path</key>
+			<string>SHSPhoneComponents/SHSPhoneLogic.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BFF436266CCC60CD9F273E68090C3562</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5D5C786F34A75CCD476629DA2B064F92</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2346,36 +3026,14 @@
 				</array>
 			</dict>
 		</dict>
-		<key>BF55C4D24BF14D77B5BAB827076B3B8C</key>
+		<key>C0446401A2E3FF3AD17195884569A5B7</key>
 		<dict>
 			<key>fileRef</key>
-			<string>ABFD65BC8DFFCF6177A94B5F21C183F9</string>
+			<string>FBD85B9C9C7B320E14CC1AEA7368D4F4</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>BF5F3DCA937FDD661F46C1B0F2F64EE6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>XLFormDescriptorDelegate.h</string>
-			<key>path</key>
-			<string>XLForm/XL/Descriptors/XLFormDescriptorDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF67B1F6F00632C629B2D51C0A05668B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D81FCEAB4DD8C57CED707C94CE59EF99</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C23C0F6F3680B7EA6FBD93E2EC183364</key>
+		<key>C0DCCD11F695C9C0AA9BF839050DFF03</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2384,16 +3042,16 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>XLFormViewController.m</string>
+			<string>XLFormPickerCell.m</string>
 			<key>path</key>
-			<string>XLForm/XL/Controllers/XLFormViewController.m</string>
+			<string>XLForm/XL/Cell/XLFormPickerCell.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C3AE2011C7D335E0C4F366AB1749C1CC</key>
+		<key>C5F4C888D62CED89340EB2F143D03D25</key>
 		<dict>
 			<key>fileRef</key>
-			<string>CB89B7C3DB8F3E05AC04060557C4C8CD</string>
+			<string>1E1E4E4F8E86FBAEEE03B68C8B651F78</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -2418,35 +3076,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C662F6D9C645355B5DA34633C68BB3AB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>XLFormPickerCell.m</string>
-			<key>path</key>
-			<string>XLForm/XL/Cell/XLFormPickerCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CA4E287C2FFFE67F950BEBB1C0FC7CCA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-ios_checkout.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CA70F8ACE58E498215D37D5807DD4069</key>
+		<key>C78403E2C641AA4250813AD5A8F0CBF7</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2455,86 +3085,13 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>XLFormSectionDescriptor.h</string>
+			<string>XLFormPickerCell.h</string>
 			<key>path</key>
-			<string>XLForm/XL/Descriptors/XLFormSectionDescriptor.h</string>
+			<string>XLForm/XL/Cell/XLFormPickerCell.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>CA788C1422A17535E23295858C716457</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3548CE6B671556682ADEC1627F860D9A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>CAB2274646F6341E2F845C8C0A8E028D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>XLFormStepCounterCell.m</string>
-			<key>path</key>
-			<string>XLForm/XL/Cell/XLFormStepCounterCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CB82A49AAD39649DE320CE1027FFC258</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>XLFormStepCounterCell.h</string>
-			<key>path</key>
-			<string>XLForm/XL/Cell/XLFormStepCounterCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CB89B7C3DB8F3E05AC04060557C4C8CD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>XLFormRightImageButton.m</string>
-			<key>path</key>
-			<string>XLForm/XL/Helpers/Views/XLFormRightImageButton.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CCCF1F13FD48F697E79FB3620DF9F9F7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BF5F3DCA937FDD661F46C1B0F2F64EE6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>CEFF2A850A19EEDF29B6BD643E16ACD4</key>
+		<key>C80D17A8F246D0864D17C0F8CC0B892E</key>
 		<dict>
 			<key>baseConfigurationReference</key>
 			<string>9CCA4870560780678D4221D67FDA0557</string>
@@ -2574,7 +3131,48 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>CF8BBD67A2BD2D1997E1DA211B05220C</key>
+		<key>C8B88F52AFCA7C78F7E677051DBD7AE4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SHSPhoneComponent-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CA4E287C2FFFE67F950BEBB1C0FC7CCA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-ios_checkout.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CA5C185A8C6BB5FDE70C0849301CFCE5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>XLFormImageCell.m</string>
+			<key>path</key>
+			<string>XLForm/XL/Cell/XLFormImageCell.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CB5F370266F196E4EBAFCE7ED5FACDD9</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2583,16 +3181,46 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>XLFormDatePickerCell.h</string>
+			<string>XLFormInlineRowDescriptorCell.h</string>
 			<key>path</key>
-			<string>XLForm/XL/Cell/XLFormDatePickerCell.h</string>
+			<string>XLForm/XL/Cell/XLFormInlineRowDescriptorCell.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D2E164E94EF472458B9565FF8BD3CD3E</key>
+		<key>CBCFC8D452458458E95B6A39B80C93BE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>XLFormRegexValidator.h</string>
+			<key>path</key>
+			<string>XLForm/XL/Validation/XLFormRegexValidator.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CC1757DDDF90E0EF5DB35FB1281CF7FA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSExpression+XLFormAdditions.m</string>
+			<key>path</key>
+			<string>XLForm/XL/Helpers/NSExpression+XLFormAdditions.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CDDC3A20CC971B008B0CBEEA3550AACF</key>
 		<dict>
 			<key>fileRef</key>
-			<string>E863D18915A9506FAB8EF827ABC06717</string>
+			<string>CB5F370266F196E4EBAFCE7ED5FACDD9</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2602,6 +3230,39 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>CEA52C21BCBECDF9730A11871D5FD460</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSPredicate+XLFormAdditions.h</string>
+			<key>path</key>
+			<string>XLForm/XL/Helpers/NSPredicate+XLFormAdditions.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D268A26368B845FF7CEEB4E56A589ECD</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>2652ADAB2E3F67DE9A5AA76F9BF535BA</string>
+				<string>4624D54CBB8890CB6F28A41B44BEDEE0</string>
+				<string>127F91ACF92AE7A4C26CDFC0EA11FEF1</string>
+				<string>AE0407276CDD360641C76A6CF38E7415</string>
+				<string>DB96691F44B69FF457F7303FE2144A0E</string>
+				<string>BB0D60298D081DA313341B010021D4D3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>D41D8CD98F00B204E9800998ECF8427E</key>
 		<dict>
@@ -2629,7 +3290,7 @@
 			<key>mainGroup</key>
 			<string>7DB346D0F39D3F0E887471402A8071AB</string>
 			<key>productRefGroup</key>
-			<string>1D77C60A9346C12EB35BAF7F4F2A6255</string>
+			<string>7B4FA45EB46A0F3E5E813570B697667A</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -2638,11 +3299,26 @@
 			<string></string>
 			<key>targets</key>
 			<array>
-				<string>22863EBA3BECF4877A05532606C57999</string>
-				<string>57A5D98B6577B2CEC97237D5C16AECB2</string>
+				<string>ACF52DB2CAB32CFF2C961BC530B3D14E</string>
+				<string>6488C2174D855E8D025F68D053BCDC61</string>
+				<string>85ACE508EA1BB89D1FC1A76A040B41B2</string>
 			</array>
 		</dict>
-		<key>D4B8A992FF2A590885D7A03E40D8007A</key>
+		<key>D4635B242194C0A04003B7305C0C49CA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9E0ADD74E358CCE8A6171F15987108BB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>D480C5B39D5A4C3598E8E6F3B4914497</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2651,26 +3327,69 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>XLFormOptionsObject.h</string>
+			<string>NSExpression+XLFormAdditions.h</string>
 			<key>path</key>
-			<string>XLForm/XL/Controllers/XLFormOptionsObject.h</string>
+			<string>XLForm/XL/Helpers/NSExpression+XLFormAdditions.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D81FCEAB4DD8C57CED707C94CE59EF99</key>
+		<key>D5665C49A7D776D0B9A94677E5DFB5C8</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>C80D17A8F246D0864D17C0F8CC0B892E</string>
+				<string>996285CB33F8069319A176879B6A7889</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>D606EFBD3CB59210283B8ACD289BC238</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>XLFormImageCell.m</string>
+			<string>XLFormImageCell.h</string>
 			<key>path</key>
-			<string>XLForm/XL/Cell/XLFormImageCell.m</string>
+			<string>XLForm/XL/Cell/XLFormImageCell.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D7A49AA92B76E0A411DD3C7D40CED8FE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>XLFormDescriptorCell.h</string>
+			<key>path</key>
+			<string>XLForm/XL/Cell/XLFormDescriptorCell.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D7B4BEB4DCC2329A9B149F6B70AD7267</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>A4F90498807743A14EE9CF57122D4AEC</string>
+				<string>4F350DEF974DE98B95161631AFEA3233</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
 		</dict>
 		<key>D9E0AE4F41AE677057BBC74397011710</key>
 		<dict>
@@ -2685,105 +3404,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D9F948C2B92C212328C75A68D0F2913F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BA0C220050C826C4F62E199169FF95A1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>DAF6B30F4A7755AAFF2BCE2DDA3E2604</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CB82A49AAD39649DE320CE1027FFC258</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>DAFAED24B5AA0B748C71F1279954E582</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSString+XLFormAdditions.m</string>
-			<key>path</key>
-			<string>XLForm/XL/Helpers/NSString+XLFormAdditions.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DB1BB73FD81F9DD1EC59FDC1BC0B8C51</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSObject+XLFormAdditions.m</string>
-			<key>path</key>
-			<string>XLForm/XL/Helpers/NSObject+XLFormAdditions.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E0240AEE30BECE480D338E4635CFD990</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1A434D72E217B64A61FE9EA82E830539</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E08BB83B76CA6C754366CC70A7969446</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>XLForm.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E13766020D0098917273D4376E9E9862</key>
-		<dict>
-			<key>fileRef</key>
-			<string>12F65648A6F08F066D5C6631571DA42C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>E2845DF4BD6BF3B03B75F4F5CC51F515</key>
+		<key>DAAA385564ADF55B013672870BD3838F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2792,61 +3413,16 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>XLFormRowNavigationAccessoryView.h</string>
+			<string>SHSPhoneLogic.h</string>
 			<key>path</key>
-			<string>XLForm/XL/Helpers/Views/XLFormRowNavigationAccessoryView.h</string>
+			<string>SHSPhoneComponents/SHSPhoneLogic.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E5CEF80F2E4C382FFB0F7F57D8BA7AEB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>XLFormSwitchCell.h</string>
-			<key>path</key>
-			<string>XLForm/XL/Cell/XLFormSwitchCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E7AE5B564ECBD8A548A9D514488337A5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>XLFormPickerCell.h</string>
-			<key>path</key>
-			<string>XLForm/XL/Cell/XLFormPickerCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E863D18915A9506FAB8EF827ABC06717</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>XLFormTextView.h</string>
-			<key>path</key>
-			<string>XLForm/XL/Helpers/Views/XLFormTextView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E93C94DA3ED56727C79F08EBCD1F6FD9</key>
+		<key>DB96691F44B69FF457F7303FE2144A0E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>8FFC23553A0DA4ADD5464DACB64037C4</string>
+			<string>7248D08F4C100907B696DCDBD134E8C1</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2857,10 +3433,10 @@
 				</array>
 			</dict>
 		</dict>
-		<key>E9636808CBC58B7DCB8D10944711F220</key>
+		<key>DC466BED875C9D442D7027202F29933C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>29E87719C0DC89CCC4355DAA1F16B5DF</string>
+			<string>A9A6C920818ED298AB79935276CE79AB</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2871,150 +3447,7 @@
 				</array>
 			</dict>
 		</dict>
-		<key>EC76121BAABCF2DF14BAD1A8927DF1EB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B3F86432E9F2EADCF51B8B3EB9C764AC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>EEB74BFC46CC6F0793A2B0B1969AA330</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4DDAF2423D2D019E8ADF0E07F795E3A7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EF6DE896C85EC58652773D864BAAADC1</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>CA4E287C2FFFE67F950BEBB1C0FC7CCA</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.2</string>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>F13AEE790CB5D263E6C148DA06B8DE1F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C23C0F6F3680B7EA6FBD93E2EC183364</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F1A5061270351430A251E380575A8C1D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B4CCDF0ACEE37ED4308724E62FCDE939</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F2EACC5A101E78C07E0B354B5C442494</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>265787118D9654F137C4DCC2D5BB392A</string>
-				<string>B7E7425CD5FF9237797FEABB49EC285A</string>
-				<string>52C1749BD697C83E12A2380DD819971B</string>
-				<string>77E988E4E9A74E5700A3F949575595C5</string>
-				<string>A8F7835EEADC534D9BCF010045854E79</string>
-				<string>ADC399B76FEF30729C83BA1E23CB479E</string>
-				<string>89A90E8B598FB36C74839A6E8560CDD1</string>
-				<string>671FB1C53097D726079A4F9F32DF3D5C</string>
-				<string>1783E29F834DD397D867BE85340E3BE6</string>
-				<string>D9F948C2B92C212328C75A68D0F2913F</string>
-				<string>BC7B266878739DCC9BF576F7FB03CAC1</string>
-				<string>088553C8ECF3FD1DED391ACADDB3EED8</string>
-				<string>EC76121BAABCF2DF14BAD1A8927DF1EB</string>
-				<string>8A22B80318CD49834D875AE38EE173A4</string>
-				<string>CCCF1F13FD48F697E79FB3620DF9F9F7</string>
-				<string>962636BE66B20B6C0A1336121042F2A0</string>
-				<string>58421192CEEC6FB7381CB47676C96F27</string>
-				<string>A3E43263E8EB7AD84356E59824532828</string>
-				<string>CA788C1422A17535E23295858C716457</string>
-				<string>FC66D74970F8BEDD9480318AD6C02ED6</string>
-				<string>E13766020D0098917273D4376E9E9862</string>
-				<string>51D7207C7F2AC63FC175AD318B81689D</string>
-				<string>74BFE3A19298AE2BA1D5F0E325F81B04</string>
-				<string>624A2024ECFC3EFB949934E9A67C1695</string>
-				<string>B7B16639586DF969337F3CE2ADD7583C</string>
-				<string>6D98FAD436FCB964D6B31EAFE5C56D5B</string>
-				<string>15E3E36BFAD16DD9E9232B2287A3B4BD</string>
-				<string>623964482854D04A03D44FE4412F6077</string>
-				<string>9B315F95F7A42B90BBE42888F7121FD8</string>
-				<string>372EAF06441BBC24FE02883252C1ACBF</string>
-				<string>75E1980F348EBA6E517E1B57CE1CFF0E</string>
-				<string>2BF1DC8EA73D21906C90DD3ED0DAB70E</string>
-				<string>DAF6B30F4A7755AAFF2BCE2DDA3E2604</string>
-				<string>8648EB3A3A120528956EC3BCF6EEB363</string>
-				<string>E9636808CBC58B7DCB8D10944711F220</string>
-				<string>D2E164E94EF472458B9565FF8BD3CD3E</string>
-				<string>9E252F1FF978218BCEEE378FD14EA994</string>
-				<string>1BB8F905043EFFD8F05193F6F482E395</string>
-				<string>B0028397C6030DF95D94C0E83433B1CE</string>
-				<string>E93C94DA3ED56727C79F08EBCD1F6FD9</string>
-				<string>2341AA95B7432E3942C7849360D77B0B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>F31AE590602E2A4327286906B08D422F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>XLFormCheckCell.m</string>
-			<key>path</key>
-			<string>XLForm/XL/Cell/XLFormCheckCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F3E530C47365A9DEDD5CB7325AD44674</key>
+		<key>E2041339DC9EAA675194A17DF4501687</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>archive.ar</string>
@@ -3029,7 +3462,24 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>F50084EB4D593C8CA13B6E1DCF4CB9DE</key>
+		<key>E5328EB2EEC251B5492F9B400A9E494D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>AACD3D19E7415D5E49642A49ED015FAB</string>
+				<string>225DFCE92E01BC3B68CECA24D67710B9</string>
+				<string>203236DA3255754CE68E1CE0BD8240BB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/XLForm</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E87D8A958CBB697D9F4AF44FBB985DE1</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -3038,13 +3488,28 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>XLFormDateCell.m</string>
+			<string>XLFormBaseCell.m</string>
 			<key>path</key>
-			<string>XLForm/XL/Cell/XLFormDateCell.m</string>
+			<string>XLForm/XL/Cell/XLFormBaseCell.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F75DC49E621032FDAE029ECF6A40D00D</key>
+		<key>E90FF770D97223CDB2F0A74538F1B63F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSPredicate+XLFormAdditions.m</string>
+			<key>path</key>
+			<string>XLForm/XL/Helpers/NSPredicate+XLFormAdditions.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E94631B9BC0DCB51B01057FC745C6539</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -3053,31 +3518,66 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>XLFormValidationStatus.h</string>
+			<string>XLFormRightImageButton.h</string>
 			<key>path</key>
-			<string>XLForm/XL/Validation/XLFormValidationStatus.h</string>
+			<string>XLForm/XL/Helpers/Views/XLFormRightImageButton.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FA7CA0C4DD898D9031A82A85EFB69C23</key>
+		<key>E9DF758A2085EB393BCA6A5E76E58D03</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3E81E3B3524227B5D26A08B2A485328A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EED10736B0AA07825D65403F429D06CD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3C40D61089C47AB1704D1BD98AEA73C6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EF7EBC67863B0A26583F3614C5D087DA</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>wrapper.plug-in</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>XLForm.bundle</string>
+			<string>XLFormRegexValidator.m</string>
 			<key>path</key>
-			<string>XLForm/XLForm.bundle</string>
+			<string>XLForm/XL/Validation/XLFormRegexValidator.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FC66D74970F8BEDD9480318AD6C02ED6</key>
+		<key>EFABAAA8E6188ABD7EF9AA43AE030B92</key>
 		<dict>
 			<key>fileRef</key>
-			<string>D4B8A992FF2A590885D7A03E40D8007A</string>
+			<string>1F42B9D143EFA772CDA19B3C6DAEC7E4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F1BE7A92B68BCBC3E0896A849680F1A8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BCA605F11A2EAAB628B0DAA261EFD5D8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F218B4FD77B6180BA1EBCC5151C0268F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3C9854452B704969D40D932335DEE0FF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F4DA259836FDB61FC085172FF91BB247</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B5FF67142E76CE1CCD21756D9BED6B55</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3088,18 +3588,109 @@
 				</array>
 			</dict>
 		</dict>
-		<key>FD6AB8EA1DE0A6BD62FD8704ED76315E</key>
+		<key>F58A8D09C95087F2239778A03D3EE5F2</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>FA7CA0C4DD898D9031A82A85EFB69C23</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>Resources</string>
+			<string>XLFormSwitchCell.m</string>
+			<key>path</key>
+			<string>XLForm/XL/Cell/XLFormSwitchCell.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F60D433CED3FABE35FF4023E4ED8D0F2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>225BBB4380BDF6E0CE7A773A19D87555</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F87A4BBD2EC7B45B007F955B1983ACDF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SHSPhoneNumberFormatter.m</string>
+			<key>path</key>
+			<string>SHSPhoneComponents/SHSPhoneNumberFormatter.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FA422B05D33CD2C3FC57897EC1CCA69E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>XLFormStepCounterCell.m</string>
+			<key>path</key>
+			<string>XLForm/XL/Cell/XLFormStepCounterCell.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FA6F3BA4053EF710B0C2B685A4CEC0AE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>XLForm.m</string>
+			<key>path</key>
+			<string>XLForm/XL/XLForm.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FBAF348E68F6042C7C71D4A29132695C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>XLFormOptionsObject.m</string>
+			<key>path</key>
+			<string>XLForm/XL/Controllers/XLFormOptionsObject.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FBD85B9C9C7B320E14CC1AEA7368D4F4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>XLFormCheckCell.m</string>
+			<key>path</key>
+			<string>XLForm/XL/Cell/XLFormCheckCell.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FCB8D6D6CE6FB8C121964CFF727D60B5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>87B438FC144F8DAE99374EE1F51CA2FE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>

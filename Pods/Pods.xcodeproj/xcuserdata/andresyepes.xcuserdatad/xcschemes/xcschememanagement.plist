@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SHSPhoneComponent.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>XLForm.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>22863EBA3BECF4877A05532606C57999</key>
+		<key>6488C2174D855E8D025F68D053BCDC61</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>57A5D98B6577B2CEC97237D5C16AECB2</key>
+		<key>85ACE508EA1BB89D1FC1A76A040B41B2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ACF52DB2CAB32CFF2C961BC530B3D14E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

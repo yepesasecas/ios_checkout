@@ -87,7 +87,10 @@
     [section addFormRow:row];
     
     // Phone Number
+    SHSPhoneNumberFormatter *formatter = [[SHSPhoneNumberFormatter alloc] init];
+    [formatter setDefaultOutputPattern:@"### ### #### ####" imagePath:nil];
     row = [XLFormRowDescriptor formRowDescriptorWithTag:@"phone" rowType:XLFormRowDescriptorTypePhone title:@"Phone"];
+    row.valueFormatter = formatter;
     [row.cellConfigAtConfigure setObject:@(NSTextAlignmentRight) forKey:@"textField.textAlignment"];
     row.required = TRUE;
     [section addFormRow:row];

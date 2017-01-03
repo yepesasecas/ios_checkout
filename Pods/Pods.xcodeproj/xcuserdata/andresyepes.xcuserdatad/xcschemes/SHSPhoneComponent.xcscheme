@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '85ACE508EA1BB89D1FC1A76A040B41B2'
-               BlueprintName = 'XLForm'
+               BlueprintIdentifier = '6488C2174D855E8D025F68D053BCDC61'
+               BlueprintName = 'SHSPhoneComponent'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libXLForm.a'>
+               BuildableName = 'libSHSPhoneComponent.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

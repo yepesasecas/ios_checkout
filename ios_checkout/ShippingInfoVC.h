@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "XLFormViewController.h"
 #import "XLForm.h"
+#import <SHSPhoneComponent/SHSPhoneNumberFormatter+UserConfig.h>
+
 #import "BillingInfoVC.h"
 
 
