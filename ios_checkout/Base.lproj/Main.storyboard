@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--UserVC-->
+        <!--User-->
         <scene sceneID="iFq-m0-VhZ">
             <objects>
                 <viewController id="8EY-Yf-dxs" customClass="UserVC" sceneMemberID="viewController">
@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="YoD-x6-pLg">
+                    <navigationItem key="navigationItem" title="User" id="YoD-x6-pLg">
                         <barButtonItem key="rightBarButtonItem" title="next" id="IRf-UN-wt8">
                             <connections>
                                 <segue destination="3xD-MP-orT" kind="show" identifier="shipping_info" id="2TC-dG-SLq"/>
@@ -34,7 +34,7 @@
             </objects>
             <point key="canvasLocation" x="-175" y="100"/>
         </scene>
-        <!--Shipping InfoVC-->
+        <!--ShippingInfo-->
         <scene sceneID="I0M-Up-ktq">
             <objects>
                 <viewController id="3xD-MP-orT" customClass="ShippingInfoVC" sceneMemberID="viewController">
@@ -48,10 +48,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="UcB-cj-e9Q">
+                    <navigationItem key="navigationItem" title="ShippingInfo" id="UcB-cj-e9Q">
                         <barButtonItem key="rightBarButtonItem" title="next" id="fB1-Uo-nlO">
                             <connections>
-                                <segue destination="rj9-Ct-dfI" kind="show" id="WZt-D2-maD"/>
+                                <segue destination="rj9-Ct-dfI" kind="show" identifier="billing_info" id="WZt-D2-maD"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -61,10 +61,10 @@
             </objects>
             <point key="canvasLocation" x="626" y="99"/>
         </scene>
-        <!--ZZZ-->
+        <!--BillingInfo-->
         <scene sceneID="ftL-ze-1AU">
             <objects>
-                <viewController id="rj9-Ct-dfI" sceneMemberID="viewController">
+                <viewController id="rj9-Ct-dfI" customClass="BillingInfoVC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bj3-Kx-2Ky"/>
                         <viewControllerLayoutGuide type="bottom" id="gk8-Fn-YQh"/>
@@ -74,7 +74,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="ZZZ" id="OgG-BP-izt"/>
+                    <navigationItem key="navigationItem" title="BillingInfo" id="OgG-BP-izt"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3aR-rM-irQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
