@@ -45,10 +45,23 @@
     XLFormSectionDescriptor * section;
     XLFormRowDescriptor * row;
     
-    form = [XLFormDescriptor formDescriptorWithTitle:@"Shipping Info"];
+    form = [XLFormDescriptor formDescriptorWithTitle:@"Billing Info"];
     
     // First section
     section = [XLFormSectionDescriptor formSection];
+    [form addFormSection:section];
+    
+    // Boolean - Same as Shipping Address
+    NSString *sameAsShippingTag = @"sameAsShipping";
+    row = [XLFormRowDescriptor formRowDescriptorWithTag:sameAsShippingTag
+                                                rowType:XLFormRowDescriptorTypeBooleanSwitch
+                                                  title:@"Same as Shipping"];
+    row.value = @1;
+    [section addFormRow:row];
+    
+    // section - Billing Address
+    section = [XLFormSectionDescriptor formSection];
+    section.hidden = [NSString stringWithFormat:@"$%@==1", sameAsShippingTag];
     [form addFormSection:section];
     
     // First Name

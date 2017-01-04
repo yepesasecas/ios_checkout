@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "XLFormViewController.h"
+#import "XLForm.h"
 
-@interface BillingInfoVC : UIViewController
+@interface BillingInfoVC : XLFormViewController
 
 @property (strong, nonatomic) XLFormDescriptor *form;
 @property (strong, nonatomic) NSDictionary *order;
