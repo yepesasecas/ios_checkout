@@ -74,11 +74,61 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="BillingInfo" id="OgG-BP-izt"/>
+                    <navigationItem key="navigationItem" title="BillingInfo" id="OgG-BP-izt">
+                        <barButtonItem key="rightBarButtonItem" title="next" id="jma-vo-D4t">
+                            <connections>
+                                <segue destination="1n2-4L-5yH" kind="show" identifier="shipping_method" id="khk-0L-5Gm"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3aR-rM-irQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1450" y="99"/>
+        </scene>
+        <!--Shipping Method-->
+        <scene sceneID="zbn-Hq-d2L">
+            <objects>
+                <viewController id="1n2-4L-5yH" customClass="ShippingMethodVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ELf-Fg-gZi"/>
+                        <viewControllerLayoutGuide type="bottom" id="Tdd-Rz-Zfo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lAs-QU-f13">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Shipping Method" id="QEF-K5-mkg" customClass="Shi">
+                        <barButtonItem key="rightBarButtonItem" title="next" id="rnl-B8-tfW">
+                            <connections>
+                                <segue destination="JXy-Bh-oc5" kind="show" id="Qgm-vF-bpy"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m0z-WL-RsH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2385" y="99"/>
+        </scene>
+        <!--Payment Method-->
+        <scene sceneID="sla-bJ-Cu1">
+            <objects>
+                <viewController id="JXy-Bh-oc5" customClass="PaymentMethodVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8Bu-73-FXC"/>
+                        <viewControllerLayoutGuide type="bottom" id="JHq-pV-Sro"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FFV-Hf-8Vm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Payment Method" id="hFe-4O-tKm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nQw-yn-G1j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3155" y="99"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="kwg-Xw-KJq">
