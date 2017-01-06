@@ -18,6 +18,7 @@
 		A0C4A19D1E1B494D00D605E8 /* BillingInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C4A19C1E1B494D00D605E8 /* BillingInfoVC.m */; };
 		A0CF50CA1E1EC1F900845D46 /* ShippingMethodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CF50C91E1EC1F900845D46 /* ShippingMethodVC.m */; };
 		A0CF50CD1E1EDFDF00845D46 /* PaymentMethodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CF50CC1E1EDFDF00845D46 /* PaymentMethodVC.m */; };
+		A0E144701E1F3DB700A91ECD /* OrderSummaryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E1446F1E1F3DB700A91ECD /* OrderSummaryVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		A0CF50C91E1EC1F900845D46 /* ShippingMethodVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShippingMethodVC.m; sourceTree = "<group>"; };
 		A0CF50CB1E1EDFDF00845D46 /* PaymentMethodVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentMethodVC.h; sourceTree = "<group>"; };
 		A0CF50CC1E1EDFDF00845D46 /* PaymentMethodVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentMethodVC.m; sourceTree = "<group>"; };
+		A0E1446E1E1F3DB700A91ECD /* OrderSummaryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderSummaryVC.h; sourceTree = "<group>"; };
+		A0E1446F1E1F3DB700A91ECD /* OrderSummaryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderSummaryVC.m; sourceTree = "<group>"; };
 		AD487201E86D7B0DA84E414F /* Pods-ios_checkout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_checkout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios_checkout/Pods-ios_checkout.debug.xcconfig"; sourceTree = "<group>"; };
 		DAD8976858C5E67E9CA48619 /* libPods-ios_checkout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios_checkout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -90,6 +93,8 @@
 				A0CF50CB1E1EDFDF00845D46 /* PaymentMethodVC.h */,
 				A0CF50CC1E1EDFDF00845D46 /* PaymentMethodVC.m */,
 				A09019621E1AB93B009EBAF6 /* Main.storyboard */,
+				A0E1446E1E1F3DB700A91ECD /* OrderSummaryVC.h */,
+				A0E1446F1E1F3DB700A91ECD /* OrderSummaryVC.m */,
 				A09019651E1AB93B009EBAF6 /* Assets.xcassets */,
 				A09019671E1AB93B009EBAF6 /* LaunchScreen.storyboard */,
 				A090196A1E1AB93B009EBAF6 /* Info.plist */,
@@ -252,6 +257,7 @@
 				A0C4A19D1E1B494D00D605E8 /* BillingInfoVC.m in Sources */,
 				A090195E1E1AB93B009EBAF6 /* AppDelegate.m in Sources */,
 				A0C4A1921E1ACE6500D605E8 /* ShippingInfoVC.m in Sources */,
+				A0E144701E1F3DB700A91ECD /* OrderSummaryVC.m in Sources */,
 				A090195B1E1AB93B009EBAF6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
