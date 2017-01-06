@@ -1,15 +1,18 @@
 PODS:
+  - DGActivityIndicatorView (2.1)
   - SHSPhoneComponent (2.15)
   - XLForm (3.2.0)
 
 DEPENDENCIES:
+  - DGActivityIndicatorView (~> 2.1)
   - SHSPhoneComponent
   - XLForm (~> 3.0)
 
 SPEC CHECKSUMS:
+  DGActivityIndicatorView: 1942ae657a8d247c035f229422b2d15a8adbe5b6
   SHSPhoneComponent: 4cec0653a150ad63cbc52b0c8b29ce2d3c9c26f0
   XLForm: 2250b4e96ab8ffa5f3355838c79edd90de451782
 
-PODFILE CHECKSUM: b0406691a8da700549fa9c82846bc17801efbc8c
+PODFILE CHECKSUM: d7705a3f7aafe7ee8bb6fc55d2feda2856f0e694
 
 COCOAPODS: 1.0.1

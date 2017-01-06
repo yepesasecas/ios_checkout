@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>DGActivityIndicatorView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-ios_checkout.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>6488C2174D855E8D025F68D053BCDC61</key>
+		<key>411063EFB5398BC69F363AEDFBE98954</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>85ACE508EA1BB89D1FC1A76A040B41B2</key>
+		<key>6968E7BFF9B35151071D37B8BC0CCB93</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>ACF52DB2CAB32CFF2C961BC530B3D14E</key>
+		<key>7F2706D536054A9E0F1610E2DF3973D5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8CF373A587B6703B729AED9DAAE4334C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

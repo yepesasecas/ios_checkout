@@ -8,4 +8,5 @@ target 'ios_checkout' do
   # Pods for ios_checkout
   pod 'XLForm', '~> 3.0'
   pod 'SHSPhoneComponent'
+  pod 'DGActivityIndicatorView', '~> 2.1'
 end

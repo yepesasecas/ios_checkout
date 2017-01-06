@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2FF93676D12B2C253961F6CC /* libPods-ios_checkout.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD8976858C5E67E9CA48619 /* libPods-ios_checkout.a */; };
+		A011E7C01E1F304A00F84792 /* indicatorTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A011E7BF1E1F304A00F84792 /* indicatorTestViewController.m */; };
 		A054EA981E1ABDB9000C877A /* UserVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A054EA971E1ABDB9000C877A /* UserVC.m */; };
 		A090195B1E1AB93B009EBAF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A090195A1E1AB93B009EBAF6 /* main.m */; };
 		A090195E1E1AB93B009EBAF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A090195D1E1AB93B009EBAF6 /* AppDelegate.m */; };
@@ -22,6 +23,8 @@
 
 /* Begin PBXFileReference section */
 		64EDB8086567D8FC13BEDB0F /* Pods-ios_checkout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_checkout.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios_checkout/Pods-ios_checkout.release.xcconfig"; sourceTree = "<group>"; };
+		A011E7BE1E1F304A00F84792 /* indicatorTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = indicatorTestViewController.h; sourceTree = "<group>"; };
+		A011E7BF1E1F304A00F84792 /* indicatorTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = indicatorTestViewController.m; sourceTree = "<group>"; };
 		A054EA961E1ABDB9000C877A /* UserVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserVC.h; sourceTree = "<group>"; };
 		A054EA971E1ABDB9000C877A /* UserVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserVC.m; sourceTree = "<group>"; };
 		A09019561E1AB93B009EBAF6 /* ios_checkout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_checkout.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +97,8 @@
 				A09019671E1AB93B009EBAF6 /* LaunchScreen.storyboard */,
 				A090196A1E1AB93B009EBAF6 /* Info.plist */,
 				A09019591E1AB93B009EBAF6 /* Supporting Files */,
+				A011E7BE1E1F304A00F84792 /* indicatorTestViewController.h */,
+				A011E7BF1E1F304A00F84792 /* indicatorTestViewController.m */,
 			);
 			path = ios_checkout;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 				A0CF50CD1E1EDFDF00845D46 /* PaymentMethodVC.m in Sources */,
 				A0CF50CA1E1EC1F900845D46 /* ShippingMethodVC.m in Sources */,
 				A0C4A19D1E1B494D00D605E8 /* BillingInfoVC.m in Sources */,
+				A011E7C01E1F304A00F84792 /* indicatorTestViewController.m in Sources */,
 				A090195E1E1AB93B009EBAF6 /* AppDelegate.m in Sources */,
 				A0C4A1921E1ACE6500D605E8 /* ShippingInfoVC.m in Sources */,
 				A090195B1E1AB93B009EBAF6 /* main.m in Sources */,

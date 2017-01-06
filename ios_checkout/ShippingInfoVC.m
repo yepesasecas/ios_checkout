@@ -102,17 +102,27 @@
 
 #pragma mark - Navigation
 - (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender{
+    //Activity Indicator
+    self.activityIndicatorView = [[DGActivityIndicatorView alloc] initWithType:DGActivityIndicatorAnimationTypeDoubleBounce tintColor:[UIColor blackColor] size:80.0f];
+    self.activityIndicatorView.frame = CGRectMake(self.view.frame.size.width/2 - 40, self.view.frame.size.height/2 - 40, 80, 80);
+    [self.view addSubview:self.activityIndicatorView];
+    [self.activityIndicatorView startAnimating];
+    [NSThread sleepForTimeInterval:2.0f];
+    [self.activityIndicatorView stopAnimating];
+    
+    // Valid Form
     NSArray * array = [self formValidationErrors];
     if ([array count] == 0) {
         return YES;
     }
+    
+    // Invalid Form
     [array enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
         XLFormValidationStatus * validationStatus = [[obj userInfo] objectForKey:XLValidationStatusErrorKey];
         UITableViewCell * cell = [self.tableView cellForRowAtIndexPath:[self.form indexPathOfFormRow:validationStatus.rowDescriptor]];
         [self animateCell:cell];
     }];
-    return NO;
-}
+    return NO;}
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([segue.identifier isEqualToString:@"billing_info"]) {

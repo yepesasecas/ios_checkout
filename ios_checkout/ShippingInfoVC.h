@@ -10,6 +10,7 @@
 #import "XLFormViewController.h"
 #import "XLForm.h"
 #import <SHSPhoneComponent/SHSPhoneNumberFormatter+UserConfig.h>
+#import "DGActivityIndicatorView.h"
 
 #import "BillingInfoVC.h"
 
@@ -18,4 +19,5 @@
 
 @property (strong, nonatomic) XLFormDescriptor *form;
 @property (strong, nonatomic) NSDictionary *order;
+@property (strong, nonatomic) DGActivityIndicatorView *activityIndicatorView;
 @end
