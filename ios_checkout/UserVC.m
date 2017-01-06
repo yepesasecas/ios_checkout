@@ -58,6 +58,42 @@
     [row addValidator:[XLFormValidator emailValidator]];
     [section addFormRow:row];
     
+    // Section -  Order Summary
+    section = [XLFormSectionDescriptor formSection];
+    section.title = @"Order Summary";
+    [form addFormSection:section];
+
+    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"order_subtotal" rowType:XLFormRowDescriptorTypeText title:@"Subtotal"];
+    [row.cellConfigAtConfigure setObject:@(NSTextAlignmentRight) forKey:@"textField.textAlignment"];
+    row.value = @"$271.45 USD";
+    row.disabled = @YES;
+    [section addFormRow:row];
+    
+    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"order_shipping" rowType:XLFormRowDescriptorTypeText title:@"Shipping"];
+    [row.cellConfigAtConfigure setObject:@(NSTextAlignmentRight) forKey:@"textField.textAlignment"];
+    row.value = @"$530.40 USD";
+    row.disabled = @YES;
+    [section addFormRow:row];
+    
+    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"order_duty_tax" rowType:XLFormRowDescriptorTypeText title:@"Duty and Tax"];
+    [row.cellConfigAtConfigure setObject:@(NSTextAlignmentRight) forKey:@"textField.textAlignment"];
+    row.value = @"$278.80 USD";
+    row.disabled = @YES;
+    [section addFormRow:row];
+    
+    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"order_insurance" rowType:XLFormRowDescriptorTypeText title:@"Loss & Damage Protection"];
+    [row.cellConfigAtConfigure setObject:@(NSTextAlignmentRight) forKey:@"textField.textAlignment"];
+    row.value = @"$21.61 USD";
+    row.disabled = @YES;
+    [section addFormRow:row];
+    
+    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"order_total" rowType:XLFormRowDescriptorTypeText title:@"Order Total"];
+    [row.cellConfigAtConfigure setObject:@(NSTextAlignmentRight) forKey:@"textField.textAlignment"];
+    [row.cellConfig setObject:[UIFont fontWithName:@"HelveticaNeue-Bold" size:15] forKey:@"textLabel.font"];
+    row.value = @"$1102.26 USD";
+    row.disabled = @YES;
+    [section addFormRow:row];
+    
     self.form = form;
 }
 
