@@ -96,15 +96,31 @@
     
     // Pay button
     row = [XLFormRowDescriptor formRowDescriptorWithTag:@"pay_now" rowType:XLFormRowDescriptorTypeButton title: @"Pay Now"];
+//    buttonRow.action.formSelector = @selector(didTouchButton:);
+    row.action.formSelector= @selector(payNowButton:);
     [row.cellConfigAtConfigure setObject:[UIColor purpleColor] forKey:@"backgroundColor"];
     [row.cellConfig setObject:[UIColor whiteColor] forKey:@"textLabel.color"];
-    [row.cellConfig setObject:[UIFont fontWithName:@"Helvetica" size:30] forKey:@"textLabel.font"];
+    [row.cellConfig setObject:[UIFont fontWithName:@"Helvetica" size:20] forKey:@"textLabel.font"];
     [section addFormRow:row];
 
     self.form = form;
     
 }
 
+#pragma mark - Actions
+
+- (void) payNowButton: (XLFormRowDescriptor *) sender{
+    if ([UIAlertController class]) {
+        UIAlertController * alertController = [UIAlertController alertControllerWithTitle:NSLocalizedString(@"Successful Payment!", nil)
+                                                                                  message:@"Thank you for your order"
+                                                                           preferredStyle:UIAlertControllerStyleAlert];
+        [alertController addAction:[UIAlertAction actionWithTitle:NSLocalizedString(@"OK", nil)
+                                                            style:UIAlertActionStyleDefault
+                                                          handler:nil]];
+        [self presentViewController:alertController animated:YES completion:nil];
+        [self deselectFormRow:sender];
+    }
+}
 
 /*
 #pragma mark - Navigation

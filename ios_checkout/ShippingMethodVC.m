@@ -53,7 +53,7 @@
     [form addFormSection:section];
     
     // First Name
-    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"shippingMethod" rowType:XLFormRowDescriptorTypeSelectorPickerView title:@"Picker View"];
+    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"shippingMethod" rowType:XLFormRowDescriptorTypeSelectorPickerView title:@"Method"];
     row.selectorOptions = @[[XLFormOptionsObject formOptionsObjectWithValue:@(0) displayText:@"Priority (today - $100)"],
                             [XLFormOptionsObject formOptionsObjectWithValue:@(1) displayText:@"Express (1 day - $70)"],
                             [XLFormOptionsObject formOptionsObjectWithValue:@(2) displayText:@"Two day (2 day - $50)"],
